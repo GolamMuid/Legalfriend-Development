@@ -85,126 +85,47 @@
 
             <div class="notification-card-container">
 
+                <?php
+            include 'Admin/config.php';
+            $sql = "SELECT * FROM `notifications` ORDER BY ID DESC LIMIT 10";
+
+            $result = $conn -> query($sql);
+
+            while ($row = mysqli_fetch_assoc($result))
+            { 
+                $date = $row['notification_date'];
+                $date1 = date('d', strtotime($date));
+                $date2 = date('M y', strtotime($date));
+                $headline = $row['headline'];
+            
+            ?>
+
+
+
                 <div class="notification-card">
+
+
+
                     <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
+                        <p class="date1"> <?php echo $date1 ?> </p>
+                        <p class="date2"><?php echo $date2 ?></p>
                     </div>
                     <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
+
+                        <?php echo $headline; ?> <br>
+                        <button class="view-button">VIEW</button>
+
+
                     </div>
 
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
+
 
                 </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
 
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
+                <?php
+            }
+            ?>
 
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
-
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
-
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
-
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
-
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
-
-                </div>
-                <div class="notification-card">
-                    <div class="notification-date">
-                        <p class="date1">21</p>
-                        <p class="date2">Dec 21</p>
-                    </div>
-                    <div class="notification-details">
-                        ঈদুল-ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে। <br>
-                        <a href="./notificationDetail.html" target="_parent"><button
-                                class="view-button">VIEW</button></a>
-                    </div>
-
-                </div>
 
             </div>
 
@@ -214,11 +135,13 @@
                     << </button>
                         <button>
                             < </button>
-                                <button> 1 </button>
-                                <button> 2 </button>
+                                <button onClick="window.location.href='notification.php';">
+                                    1 </button>
+                                <button onClick="window.location.href='notification2.php';"> 2 </button>
                                 <button> 3 </button>
                                 <button> > </button>
                                 <button> >> </button>
+
 
             </div>
 

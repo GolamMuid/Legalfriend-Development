@@ -82,106 +82,34 @@
                 MESSAGES
             </div>
             <div class="message-article-body">
+                <?php
+            include 'Admin/config.php';
+            $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 10";
+
+            $result = $conn -> query($sql);
+
+            while ($row = mysqli_fetch_assoc($result))
+            { 
+               
+                $headline = $row['headline'];
+                $image = $row['image']
+            
+            ?>
                 <a href="">
                     <div class="articles">
                         <div class="article-image">
-                            <img src="./images/Lady.jpg" alt="">
+                            <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                         </div>
                         <div class="article-text">
-                            নারীর প্রতি শারিরীক ও মানসিক নির্যাতন প্রতিরোধ আইন কতটুকু কার্যকর ?
+                            <?php echo $headline ?>
                         </div>
                     </div>
                 </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/high_court.jpeg" alt="">
-                        </div>
-                        <div class="article-text">
-                            আইনী জটিলতায় মামলা মিমাংসার সময় বৃদ্ধি পাচ্ছে, মিলছে না সঠিক বিচার।
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/Lady.jpg" alt="">
-                        </div>
-                        <div class="article-text">
-                            নারীর প্রতি শারিরীক ও মানসিক নির্যাতন প্রতিরোধ আইন কতটুকু কার্যকর ?
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/high_court.jpeg" alt="">
-                        </div>
-                        <div class="article-text">
-                            আইনী জটিলতায় মামলা মিমাংসার সময় বৃদ্ধি পাচ্ছে, মিলছে না সঠিক বিচার।
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/Lady.jpg" alt="">
-                        </div>
-                        <div class="article-text">
-                            নারীর প্রতি শারিরীক ও মানসিক নির্যাতন প্রতিরোধ আইন কতটুকু কার্যকর ?
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/high_court.jpeg" alt="">
-                        </div>
-                        <div class="article-text">
-                            আইনী জটিলতায় মামলা মিমাংসার সময় বৃদ্ধি পাচ্ছে, মিলছে না সঠিক বিচার।
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/Lady.jpg" alt="">
-                        </div>
-                        <div class="article-text">
-                            নারীর প্রতি শারিরীক ও মানসিক নির্যাতন প্রতিরোধ আইন কতটুকু কার্যকর ?
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/high_court.jpeg" alt="">
-                        </div>
-                        <div class="article-text">
-                            আইনী জটিলতায় মামলা মিমাংসার সময় বৃদ্ধি পাচ্ছে, মিলছে না সঠিক বিচার।
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/Lady.jpg" alt="">
-                        </div>
-                        <div class="article-text">
-                            নারীর প্রতি শারিরীক ও মানসিক নির্যাতন প্রতিরোধ আইন কতটুকু কার্যকর ?
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./images/high_court.jpeg" alt="">
-                        </div>
-                        <div class="article-text">
-                            আইনী জটিলতায় মামলা মিমাংসার সময় বৃদ্ধি পাচ্ছে, মিলছে না সঠিক বিচার।
-                        </div>
-                    </div>
-                </a>
+
+                <?php
+            }
+            ?>
+
 
 
             </div>

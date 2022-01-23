@@ -3,13 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LegalFriend - Articles</title>
+    <title>LegalFriend - Notifications </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -19,6 +14,7 @@
 
 <body>
     <section id="header">
+
         <div class="header-container">
 
 
@@ -27,7 +23,7 @@
 
 
                 <div class="logo">
-                    <a href="index.php">
+                    <a href="index.html">
                         <img src="./images/title.png" alt="">
                     </a>
                 </div>
@@ -38,8 +34,8 @@
                 <ul>
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="messages.php">MESSAGES</a></li>
-                    <li><a class="active" href="articles.php">ARTICLES</a></li>
-                    <li><a href="notification.php">NOTIFICATION</a></li>
+                    <li><a href="articles.php">ARTICLES</a></li>
+                    <li><a class="active" href="notification.php">NOTIFICATION</a></li>
                     <li class="calender"> <a href="calender.php"> CALENDER
                             <ul class="dropdown">
                                 <li> <a href="nationalCalender.php"> জাতীয় ক্যালেন্ডার </a></li>
@@ -59,19 +55,17 @@
 
             <div class="headine-rightbar">
 
-                <?php 
-               include 'inc/headline.php'
+                <?php
+               include 'inc/headline.php';
                ?>
-
-                <?php 
-               include 'inc/rightbar.php'
+                <?php
+               include 'inc/rightbar.php';
                ?>
 
             </div>
         </div>
-
-
     </section>
+
 
 
     <div class="responsive-logo">
@@ -82,37 +76,51 @@
     </div>
 
 
+
     <section class="page-body">
         <div class="page-container">
             <div class="page-title-container">
-                ARTICLES
+                NOTIFICATION
             </div>
-            <div class="message-article-body">
+
+            <div class="notification-card-container">
 
                 <?php
             include 'Admin/config.php';
-            $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 10";
+            $sql = "SELECT * FROM `notifications` ORDER BY ID DESC LIMIT 10";
 
             $result = $conn -> query($sql);
 
             while ($row = mysqli_fetch_assoc($result))
             { 
-               
+                $date = $row['notification_date'];
+                $date1 = date('d', strtotime($date));
+                $date2 = date('M y', strtotime($date));
                 $headline = $row['headline'];
-                $image = $row['image']
             
             ?>
 
-                <a href="">
-                    <div class="articles">
-                        <div class="article-image">
-                            <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
-                        </div>
-                        <div class="article-text">
-                            <?php echo $headline ?>
-                        </div>
+
+
+                <div class="notification-card">
+
+
+
+                    <div class="notification-date">
+                        <p class="date1"> <?php echo $date1 ?> </p>
+                        <p class="date2"><?php echo $date2 ?></p>
                     </div>
-                </a>
+                    <div class="notification-details">
+
+                        <?php echo $headline; ?> <br>
+                        <button class="view-button">VIEW</button>
+
+
+                    </div>
+
+
+
+                </div>
 
                 <?php
             }
@@ -127,25 +135,23 @@
                     << </button>
                         <button>
                             < </button>
-                                <button> 1 </button>
-                                <button> 2 </button>
+                                <button onclick="window.location.href=./notification.php"> 1 </button>
+                                <button onclick="window.location.href=./notification2.php"> 2 </button>
                                 <button> 3 </button>
                                 <button> > </button>
                                 <button> >> </button>
 
             </div>
 
+
         </div>
-
     </section>
+
     <footer>
-        <?php 
-        include 'inc/footer.php'; 
-    ?>
-
-
+        <?php
+        include 'inc/footer.php'
+        ?>
     </footer>
-
 
 </body>
 

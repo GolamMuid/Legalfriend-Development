@@ -98,6 +98,8 @@
             while ($row = mysqli_fetch_assoc($result))
             { 
                 $date = $row['notification_date'];
+                $date1 = date('d', strtotime($date));
+                $date2 = date('M y', strtotime($date));
                 $headline = $row['headline'];
             
             ?>
@@ -109,8 +111,8 @@
 
 
                         <div class="notification-date">
-                            <p class="date1"> <?php echo $date ?> </p>
-                            <!-- <p class="date2">Dec 21</p> -->
+                            <p class="date1"> <?php echo $date1 ?> </p>
+                            <p class="date2"><?php echo $date2 ?></p>
                         </div>
                         <div class="notification-details">
 
@@ -156,9 +158,9 @@
 
 
                     <div class="advertises">
-                        <div class="Advertise-image">
-                            <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
-                            <!-- <img src="copy.png" alt=""> -->
+                        <div class="advertise-image">
+                            <img class="ad-image" src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+
 
                         </div>
                         <div class="advertise-text">
@@ -205,6 +207,7 @@
                
                 $headline = $row['headline'];
                 $date = $row['message_date'];
+                $newdate = date('d M y',strtotime($date));
                 $image = $row['image']
             
             ?>
@@ -216,7 +219,7 @@
                     <p> <?php echo $headline ?> </p>
                 </a>
                 <div class="date">
-                    <?php echo $date ?>
+                    <?php echo $newdate ?>
                 </div>
             </div>
 
@@ -247,6 +250,7 @@
                
                 $headline = $row['headline'];
                 $date = $row['message_date'];
+                $newdate = date('d M y',strtotime($date));
                 $image = $row['image']
             
             ?>
@@ -259,7 +263,7 @@
                             <p> <?php echo $headline ?> </p>
                         </a>
                         <div class="date">
-                            <?php echo $date ?>
+                            <?php echo $newdate ?>
                         </div>
                     </div>
                 </div>
@@ -386,6 +390,7 @@
             { 
                
                 $date = $row['message_date'];
+                $newdate = date('d M y',strtotime($date));
                 $image = $row['image'];
                 $name = $row['name'];
                 $designation = $row['designation'];
@@ -417,7 +422,7 @@
                         <?php echo $headline; ?>
                     </div>
                     <div class="date">
-                        <?php echo $date; ?>
+                        <?php echo $newdate; ?>
                     </div>
 
 
@@ -453,6 +458,7 @@
             { 
                
                 $date = $row['message_date'];
+                $newdate = date('d M y',strtotime($date));
                 $image = $row['image'];
                 $name = $row['name'];
                 $designation = $row['designation'];
@@ -486,7 +492,7 @@
                                 <?php echo $headline; ?>
                             </div>
                             <div class="date">
-                                <?php echo $date; ?>
+                                <?php echo $newdate; ?>
                             </div>
 
 

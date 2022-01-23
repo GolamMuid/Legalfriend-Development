@@ -82,7 +82,27 @@
             </div>
 
             <div class="calender-page-body">
-                insert calender
+                <div class="calender-img-body">
+                    <?php
+            include 'Admin/config.php';
+            $sql = "SELECT * FROM `calenders` ORDER BY ID LIMIT 1";
+
+            $result = $conn -> query($sql);
+
+            while ($row = mysqli_fetch_assoc($result))
+            {
+                $image = $row['image'];
+                $title = $row['image_link'];
+           
+            }
+            ?>
+                    <div class="calender-image">
+                        <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+                    </div>
+                    <div class="calender-title">
+                        <p> <?php echo $title ?> </p>
+                    </div>
+                </div>
 
             </div>
 
