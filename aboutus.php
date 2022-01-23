@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>LegalFriend - About Us</title>
+    <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -83,30 +84,34 @@
                 ABOUTus
             </div>
             <div class="about-us-body">
-                <img src="./images/aboutus.png" alt="">
-                <p>Honble Prime Minister's dream 'Digital Bangladesh' and one of our most beautiful initiatives to
-                    fulfill this dream is LegalFriend. Bangladesh has already moved ahead in line with other developed
-                    countries of the world. Every field has advanced with the use of knowledge and science as well as
-                    technology. In This connection. Legaliriend has taken initiative to make some work easier through
-                    online services of advocates practicing in the courts of Bangladesh.
+
+                <?php
+            
+            $sql = "SELECT * FROM `about`";
+            $result=$conn->query($sql);
+            while($row = mysqli_fetch_assoc($result))
+            {
+            $id = $row['id'];
+            $address = $row['name'];
+            $image = $row['image'];
+            $des = $row['des'];
+            $name = $row['notification_date'];
+            $email = $row['headline'];
+            $number = $row['image_link'];
+            }
+            ?>
+                <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+                <p>
+                    <?php echo $des ?>
                 </p>
-                <br />
-                <p>Initially, it will start its activities in Judge Cour: Dhaka, due to The Dhaka Bar Association, the
-                    largest bar in South Asia. So for good reason every member of Dhaka Bar Association spends a very
-                    busy time. In addition to legal practice, court-related work has to be done 'or a large amount of
-                    time during the day, or within a specified time to seek the assistance of a trusted person. Legal'
-                    riend is an online app that promises to do the work of that trusted person. This is why it is a
-                    legal f rierd. Also, "LegalFrienT w;11 become a social platform for everyone related to law &
-                    justice. Legalfriend is working on that endeavor.
-                </p>
-                <br>
+
 
                 <div class="about-us-title">
-                    LegalFriend Bangladesh
+                    <?php echo $name ?>
                 </div>
-                <p> Sheikhdi R/A, Donia, Zatrabari, Dhaka. </p>
-                <p> legalfriendbd@gmail.com </p>
-                <p> +8801779888281 </p>
+                <p> <?php echo $address ?> </p>
+                <p> <?php echo $email ?> </p>
+                <p> <?php echo $number ?> </p>
                 <br>
             </div>
             <div class="our-app">

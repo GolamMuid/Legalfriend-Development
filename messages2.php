@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LegalFriend - National Calender</title>
+    <title>LegalFriend - Messages</title>
     <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -34,10 +34,10 @@
                 </label>
                 <ul>
                     <li><a href="index.php">HOME</a></li>
-                    <li><a href="messages.php">MESSAGES</a></li>
+                    <li><a class="active" href="messages.php">MESSAGES</a></li>
                     <li><a href="articles.php">ARTICLES</a></li>
                     <li><a href="notification.php">NOTIFICATION</a></li>
-                    <li class="calender"> <a class="active" href="calender.php"> CALENDER
+                    <li class="calender"> <a href="calender.php"> CALENDER
                             <ul class="dropdown">
                                 <li> <a href="nationalCalender.php"> জাতীয় ক্যালেন্ডার </a></li>
                                 <li> <a href="highcourtCalender.php"> হাইকোর্ট ক্যালেন্ডার </a></li>
@@ -57,11 +57,12 @@
             <div class="headine-rightbar">
 
                 <?php
-               include 'inc/headline.php'
-               ?>
+        include 'inc/headline.php'
+        ?>
+
                 <?php
-               include 'inc/rightbar.php'
-               ?>
+        include 'inc/rightbar.php'
+        ?>
 
             </div>
         </div>
@@ -71,7 +72,7 @@
 
     <div class="responsive-logo">
         <?php
-            include 'inc/responsivelogo.php'
+        include 'inc/responsivelogo.php'
         ?>
 
     </div>
@@ -79,42 +80,59 @@
     <section class="page-body">
         <div class="page-container">
             <div class="page-title-container">
-                CALENDER
+                MESSAGES
             </div>
-
-            <div class="calender-page-body">
-                <div class="calender-img-body">
-                    <?php
+            <div class="message-article-body">
+                <?php
             include 'Admin/config.php';
-            $sql = "SELECT * FROM `calenders` ORDER BY ID LIMIT 1";
+            $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 10 OFFSET 10";
 
             $result = $conn -> query($sql);
 
             while ($row = mysqli_fetch_assoc($result))
-            {
-                $image = $row['image'];
-                $title = $row['image_link'];
-           
+            { 
+               
+                $headline = $row['headline'];
+                $image = $row['image']
+            
+            ?>
+                <a href="">
+                    <div class="articles">
+                        <div class="article-image">
+                            <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+                        </div>
+                        <div class="article-text">
+                            <?php echo $headline ?>
+                        </div>
+                    </div>
+                </a>
+
+                <?php
             }
             ?>
-                    <div class="calender-image">
-                        <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
-                    </div>
-                    <div class="calender-title">
-                        <p> <?php echo $title ?> </p>
-                    </div>
-                </div>
+
+
 
             </div>
 
+            <div class="page-numbers">
+                <button onClick="window.location.href='messages.php';"> 1 </button>
+                <button onClick="window.location.href='messages2.php';"> 2 </button>
+                <button onClick="window.location.href='messages3.php';"> 3 </button>
+                <button onClick="window.location.href='messages4.php';"> 4 </button>
+                <button onClick="window.location.href='messages5.php';"> 5 </button>
+            </div>
 
         </div>
+
     </section>
     <footer>
         <?php
         include 'inc/footer.php'
         ?>
     </footer>
+
+
 </body>
 
 </html>

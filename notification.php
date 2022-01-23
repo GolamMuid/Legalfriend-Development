@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>LegalFriend - Notifications </title>
+    <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -23,7 +24,7 @@
 
 
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="./images/title.png" alt="">
                     </a>
                 </div>
@@ -87,12 +88,13 @@
 
                 <?php
             include 'Admin/config.php';
-            $sql = "SELECT * FROM `notifications` ORDER BY ID DESC LIMIT 10";
+            $sql = "SELECT * FROM `notifications` ORDER BY ID DESC LIMIT 10 OFFSET 0";
 
             $result = $conn -> query($sql);
 
             while ($row = mysqli_fetch_assoc($result))
             { 
+                $id = $row['id'];
                 $date = $row['notification_date'];
                 $date1 = date('d', strtotime($date));
                 $date2 = date('M y', strtotime($date));
@@ -113,7 +115,8 @@
                     <div class="notification-details">
 
                         <?php echo $headline; ?> <br>
-                        <button class="view-button">VIEW</button>
+                        <button onClick="window.location.href='notificationDetail.php?id=<?php echo $id; ?>';"
+                            class="view-button">VIEW</button>
 
 
                     </div>
@@ -130,22 +133,12 @@
             </div>
 
             <div class="page-numbers">
-
-                <button>
-                    << </button>
-                        <button>
-                            < </button>
-                                <button onClick="window.location.href='notification.php';">
-                                    1 </button>
-                                <button onClick="window.location.href='notification2.php';"> 2 </button>
-                                <button> 3 </button>
-                                <button> > </button>
-                                <button> >> </button>
-
-
+                <button onClick="window.location.href='notification.php';"> 1 </button>
+                <button onClick="window.location.href='notification2.php';"> 2 </button>
+                <button onClick="window.location.href='notification3.php';"> 3 </button>
+                <button onClick="window.location.href='notification4.php';"> 4 </button>
+                <button onClick="window.location.href='notification5.php';"> 5 </button>
             </div>
-
-
         </div>
     </section>
 

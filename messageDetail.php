@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>LegalFriend - Message</title>
+    <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -11,6 +12,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+<?php
+$id = $_GET['id'];
+?>
 
 <body>
     <section id="header">
@@ -82,181 +87,96 @@
             </div>
 
             <div class="article-detail-body">
+                <?php
+
+             $sql = "SELECT * FROM `messages` WHERE id = $id";
+             $result=$conn->query($sql);
+            while($row = mysqli_fetch_assoc($result))
+            {
+            $id = $row['id'];
+            $message_date = $row['message_date'];
+            $image = $row['image'];
+            $name = $row['name'];
+            $designation = $row['designation'];
+            $address = $row['address'];
+            $headline = $row['headline'];
+            $body = $row['body'];
+            $topic = $row['topic'];
+            $caption = $row['url_link'];
+            }
+             ?>
+
                 <div class="main-article">
                     <div class="main-article-title">
-                        বহুবিবাহের আইন সংবিধানের সাথে সাংঘর্ষিক কেন নয়ঃ হাইকোর্ট ?
+                        <?php echo $headline ?>
                     </div>
                     <div class="main-article-author">
                         <div class="article-author-image">
                             <img src="./images/author.jpg" alt="">
                         </div>
                         <div class="article-author-detail">
-                            প্রতিবেদকঃ বার্তাকক্ষ
+                            প্রতিবেদকঃ <?php echo $headline ?>
                             <br>
-                            প্রকাশিতঃ ১০ জানুয়ারী ২০২১
+                            প্রকাশিতঃ <?php echo $message_date ?>
                         </div>
                         <div class="article-share">
-                            <img src="./images/fb.png" alt="">
-                            <img src="./images/copy.png" alt="">
+                            <a href="">
+                                <img src="./images/fb.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/copy.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <figure>
-                        <img src="./images/high_court.jpeg" alt="">
-                        <figcaption>সুপ্রীম কোর্ট</figcaption>
+                        <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+                        <figcaption><?php echo $caption ?></figcaption>
 
                     </figure>
 
                     <div class="message-text-detail">
+                        <?php echo $body ?>
 
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid consequatur error est,
-                        minima
-                        assumenda itaque odit nemo explicabo, ipsam deleniti ut animi quam sed minus hic ex, veritatis
-                        voluptatum sit aut asperiores adipisci iure impedit quisquam. Architecto, corporis non.
-                        Voluptate
-                        voluptatibus obcaecati numquam dolore ducimus dolor autem iure perferendis ut! Sapiente sed
-                        quisquam
-                        aliquam odit, necessitatibus ipsam deserunt, reiciendis adipisci quam, ratione voluptatem. Illum
-                        mollitia laudantium magnam quis omnis doloremque eveniet fugiat delectus eligendi, maxime sunt
-                        numquam dicta, tempore ex ipsa quaerat suscipit eius quidem itaque totam? Quam, distinctio?
-                        Voluptatum, cupiditate, voluptates exercitationem dicta nostrum harum porro soluta inventore
-                        distinctio animi id sequi doloribus! Nulla accusamus, assumenda ea rerum reiciendis voluptatem
-                        illum
-                        in quis aliquam, ipsa harum provident distinctio accusantium maiores quam quod, doloribus quos
-                        necessitatibus! Quaerat reprehenderit culpa saepe? Eligendi ratione aliquam voluptate, quam
-                        similique omnis fuga in dignissimos. Excepturi temporibus, sit consequatur commodi inventore
-                        quidem
-                        quo veritatis ipsam sunt optio cupiditate, aliquam labore impedit tenetur ut. Dolores fuga alias
-                        ullam repudiandae nisi quasi autem, quisquam laboriosam optio natus reiciendis laudantium ut
-                        distinctio nobis accusantium ipsa quo. Voluptate in eveniet sunt eos alias distinctio
-                        necessitatibus, et id, temporibus modi totam porro doloremque ex illum ut nemo hic repellendus
-                        voluptatum non est nisi rerum maxime suscipit? Ab quas dolore, vitae ipsa suscipit eius illo eos
-                        necessitatibus nesciunt, culpa, veniam asperiores repellat impedit enim minus dolorem corrupti
-                        labore harum voluptas nisi. Aliquid magnam ducimus debitis odit perspiciatis iusto voluptate
-                        minima
-                        consequuntur, cumque officia itaque saepe commodi necessitatibus facere, nulla totam! Libero non
-                        cupiditate et eveniet consequatur quidem error? Quo culpa odio minus eaque maxime provident
-                        voluptatibus quisquam magnam eligendi consequatur voluptas quidem illum iste nesciunt aliquam
-                        totam,
-                        eius non possimus sapiente ipsam excepturi optio consequuntur error. Iusto tempore quia est
-                        commodi,
-                        eaque iste, voluptatum blanditiis architecto atque pariatur eum cum!
+
+                    </div>
+                    <div class="message-topic">
+                        <?php echo $topic ?>
                     </div>
                 </div>
                 <div class="more-articles-sidebar">
                     <div class="article-sidebar-title">
-                        জনপ্রীয় আর্টিকেল
+                        অন্যান্য আর্টিকেল
                     </div>
+
                     <div class="article-sidebar-contents">
-                        <a href="">
+                        <?php
+            include 'Admin/config.php';
+            $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 10 OFFSET 0";
+
+            $result = $conn -> query($sql);
+
+            while ($row = mysqli_fetch_assoc($result))
+            { 
+               $id = $row['id'];
+                $headline = $row['headline'];
+                $image = $row['image'];
+            
+            ?>
+                        <a href="articleDetail.php?id=<?php echo $id; ?>">
                             <div class="sidebar-contents">
                                 <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
+                                    <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                                 </div>
                                 <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
+                                    <?php echo $headline ?>
 
                                 </div>
                             </div>
                         </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
+                        <?php
+            }
+            ?>
 
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="sidebar-contents">
-                                <div class="sidebar-image">
-                                    <img src="./images/high_court.jpeg" alt="">
-                                </div>
-                                <div class="sidebar-texts">
-                                    ফোন করে দেওয়া যাবে ভূমি কর, ডাকযোগে আসবে পর্চা ।
-
-                                </div>
-                            </div>
-                        </a>
                     </div>
                 </div>
             </div>

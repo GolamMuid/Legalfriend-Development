@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>LegalFriend - Home</title>
+    <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -97,6 +98,8 @@
 
             while ($row = mysqli_fetch_assoc($result))
             { 
+
+                $id = $row['id'];
                 $date = $row['notification_date'];
                 $date1 = date('d', strtotime($date));
                 $date2 = date('M y', strtotime($date));
@@ -108,21 +111,18 @@
 
                     <div class="notification-card">
 
-
-
                         <div class="notification-date">
                             <p class="date1"> <?php echo $date1 ?> </p>
                             <p class="date2"><?php echo $date2 ?></p>
                         </div>
+
                         <div class="notification-details">
 
                             <?php echo $headline; ?> <br>
-                            <button class="view-button">VIEW</button>
-
+                            <button onClick="window.location.href='notificationDetail.php?id=<?php echo $id; ?>';"
+                                class="view-button">VIEW</button>
 
                         </div>
-
-
 
                     </div>
 
@@ -132,7 +132,7 @@
 
 
                     <div class="section-title right">
-                        <a href="./notification.html"> ALL NOTIFICATIONS </a>
+                        <a href="./notification.php"> ALL NOTIFICATIONS </a>
                     </div>
 
 
@@ -159,14 +159,16 @@
 
                     <div class="advertises">
                         <div class="advertise-image">
-                            <img class="ad-image" src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+                            <a href="<?php echo $advertise_link ?>">
+                                <img class="ad-image" src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
 
 
                         </div>
                         <div class="advertise-text">
-                            <?php echo $advertise_link ?>
+
 
                         </div>
+                        </a>
 
                     </div>
 
@@ -192,7 +194,7 @@
             ARTICLES
         </span>
         <span class="section-title right">
-            <a href="./articles.html"> ALL ARTICLES </a>
+            <a href="./articles.php"> ALL ARTICLES </a>
         </span>
         <div class="article-body">
 
@@ -277,7 +279,7 @@
             <div class="swiper-button-prev"></div>
         </div>
         <div class="section-title">
-            <a href="./articles.html"> ALL ARTICLES </a>
+            <a href="./articles.php"> ALL ARTICLES </a>
         </div>
     </div>
 
@@ -287,7 +289,7 @@
             VIDEO
         </span>
         <span class="section-title right">
-            <a href="./index.html"> ALL VIDEOS </a>
+            <a href="https://www.youtube.com/channel/UCSpCs90r46ro4ttJos0JYpg"> ALL VIDEOS </a>
         </span>
 
         <div class="video-body">
@@ -364,7 +366,7 @@
         </div>
 
         <div class="section-title">
-            <a href=""> ALL VIDEOS </a>
+            <a href="https://www.youtube.com/channel/UCSpCs90r46ro4ttJos0JYpg"> ALL VIDEOS </a>
         </div>
     </section>
 
@@ -376,7 +378,7 @@
             MESSAGES
         </span>
         <span class="section-title right">
-            <a href="./messages.html"> ALL MESSAGES </a>
+            <a href="./messages.php"> ALL MESSAGES </a>
         </span>
         <div class="message-body">
 
@@ -514,7 +516,7 @@
             <div class="swiper-button-prev"></div>
         </div>
         <div class="section-title">
-            <a href="./messages.html"> ALL MESSAGES </a>
+            <a href="./messages.php"> ALL MESSAGES </a>
         </div>
 
 

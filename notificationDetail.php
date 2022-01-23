@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>LegalFriend - Notification</title>
+    <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -11,6 +12,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+<?php
+$id = $_GET['id'];
+?>
 
 <body>
     <section id="header">
@@ -35,8 +40,8 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="messages.php">MESSAGES</a></li>
                     <li><a href="articles.php">ARTICLES</a></li>
-                    <li><a class="active" href="notification.html">NOTIFICATION</a></li>
-                    <li class="calender"> <a class="active" href="calender.php"> CALENDER
+                    <li><a class="active" href="notification.php">NOTIFICATION</a></li>
+                    <li class="calender"> <a href="calender.php"> CALENDER
                             <ul class="dropdown">
                                 <li> <a href="nationalCalender.php"> জাতীয় ক্যালেন্ডার </a></li>
                                 <li> <a href="highcourtCalender.php"> হাইকোর্ট ক্যালেন্ডার </a></li>
@@ -84,47 +89,38 @@
                 NOTIFICATION
             </div>
             <div class="notification-detail-body">
+                <?php
+
+            $sql = "SELECT * FROM `notifications`";
+            $result=$conn->query($sql);
+            while($row = mysqli_fetch_assoc($result))
+            {
+            $id = $row['id'];
+            $name = $row['name'];
+            $image = $row['image'];
+            $des = $row['des'];
+            $notifications_date = $row['notification_date'];
+            $headline = $row['headline'];
+            $image_title = $row['image_link'];                          
+            }                                
+            ?>
+
                 <div class="notification-detail-title">
-                    ঈদুল ফিতর উপলক্ষে আগামী ২৪/০৫/২০২১ থেকে ৩০/০৫/২০২১ পর্যন্ত কজলিস্ট আপডেট বন্ধ থাকবে।
+                    <?php echo $headline ?>
                 </div>
+
                 <div class="notification-detail-date">
-                    ২১ ডিসেম্বর ২০২১
+                    <?php echo $notifications_date ?>
                 </div>
+
                 <div class="notification-detail-text">
-
-                    অংশীদারী চুক্তিপত্র দলিল।
-                    <br />
-                    <br />
-                    <br />
-
-                    অত্র চুক্তি ্নামা দলিল অদ্য ১৮/০৩/২০২১ ইং তারিখে নিন লিখিত পক্ষের মধ্যে
-                    সম্পাদিত হইল
-                    <br />
-                    <br />
-                    <br />
-
-                    সাব্বির আহমেদ, পিতাঃ মোঃ হযরত আলী, মাতাঃ খাদিজা বেগম, সাংঃ খাসেরাকান্দা, পোস্ট অফিস: হামছাদী, থানা:
-                    দোনারগাঁও, জেলা: নারাযন্গঞ্ভ। বর্তমানে-বাড়ি নং
-                    ১৪৭/৩, ৭/গ-ইউনাইটেড টাওয়ার, আকতার হোসেন রোড, থানা: ধানমন্ডি, জেলা: ঢাকা ।
-                    জন্মতারিখ-০৫/০৬/১৯৯৬ইং, জাতীয়তা-বাংলাদেশী, ধর্ম ইসলাম, পেশা-ব্যবসা।
-                    জনতুনিবদন নং-১৯৯৬৬৭১০৪১৭০২১১
-                    <br />
-                    <br />
-                    <br />
-
-                    পশ্চিম নয়াহাট, কালিকা প্রসাদ, পোস্ট অফিস: কালিকা প্রস্দ. থানা: ভৈরব, জেলা;
-                    কিশোর উু নং- ১৪৭/৩, ৭/গ-ইউনাইটেড টাওয়ার, আকতার হোসেন
-                    রোড, থানাঃ খাদি, জেলা; ঢাকা । জন্মতারিখ-১১/০২/১৯৮৮ইং. জাতীয়তা-বাংলাদেশী
-                    ধর্ম ইসলাম, পেশা-ব্যবসা । জাতীয় পরিচয় নং- ১৯৮৮৪৮১১১৪৭০০০০১৭,
-                    <br />
-                    <br />
-                    <br />
-
+                    <?php echo $des ?>
                 </div>
 
                 <div class="notification-detail-image">
-                    <img src="./images/notification.png" alt="">
+                    <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                 </div>
+
             </div>
         </div>
     </section>

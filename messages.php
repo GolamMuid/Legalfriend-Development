@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>LegalFriend - Messages</title>
+    <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -82,20 +83,22 @@
                 MESSAGES
             </div>
             <div class="message-article-body">
+
                 <?php
             include 'Admin/config.php';
-            $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 10";
+            $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 10 OFFSET 0";
 
             $result = $conn -> query($sql);
 
             while ($row = mysqli_fetch_assoc($result))
             { 
-               
+                
+                $id = $row['id'];
                 $headline = $row['headline'];
-                $image = $row['image']
+                $image = $row['image'];
             
             ?>
-                <a href="">
+                <a href="messageDetail.php?id=<?php echo $id; ?>">
                     <div class="articles">
                         <div class="article-image">
                             <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
@@ -115,17 +118,11 @@
             </div>
 
             <div class="page-numbers">
-
-                <button>
-                    << </button>
-                        <button>
-                            < </button>
-                                <button> 1 </button>
-                                <button> 2 </button>
-                                <button> 3 </button>
-                                <button> > </button>
-                                <button> >> </button>
-
+                <button onClick="window.location.href='messages.php';"> 1 </button>
+                <button onClick="window.location.href='messages2.php';"> 2 </button>
+                <button onClick="window.location.href='messages3.php';"> 3 </button>
+                <button onClick="window.location.href='messages4.php';"> 4 </button>
+                <button onClick="window.location.href='messages5.php';"> 5 </button>
             </div>
 
         </div>

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>LegalFriend - Articles</title>
+    <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,19 +92,20 @@
 
                 <?php
             include 'Admin/config.php';
-            $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 10";
+            $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 10 OFFSET 0";
 
             $result = $conn -> query($sql);
 
             while ($row = mysqli_fetch_assoc($result))
             { 
                
+                $id = $row['id'];
                 $headline = $row['headline'];
                 $image = $row['image']
             
             ?>
 
-                <a href="">
+                <a href="articleDetail.php?id=<?php echo $id; ?>">
                     <div class="articles">
                         <div class="article-image">
                             <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
@@ -122,17 +124,11 @@
             </div>
 
             <div class="page-numbers">
-
-                <button>
-                    << </button>
-                        <button>
-                            < </button>
-                                <button> 1 </button>
-                                <button> 2 </button>
-                                <button> 3 </button>
-                                <button> > </button>
-                                <button> >> </button>
-
+                <button onClick="window.location.href='articles.php';"> 1 </button>
+                <button onClick="window.location.href='articles2.php';"> 2 </button>
+                <button onClick="window.location.href='articles3.php';"> 3 </button>
+                <button onClick="window.location.href='articles4.php';"> 4 </button>
+                <button onClick="window.location.href='articles5.php';"> 5 </button>
             </div>
 
         </div>
