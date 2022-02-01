@@ -275,8 +275,6 @@
             ?>
 
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
         <div class="section-title">
             <a href="./articles.php"> ALL ARTICLES </a>
@@ -289,7 +287,7 @@
             VIDEO
         </span>
         <span class="section-title right">
-            <a href="https://www.youtube.com/channel/UCSpCs90r46ro4ttJos0JYpg"> ALL VIDEOS </a>
+            <a href="https://www.youtube.com/channel/UCSpCs90r46ro4ttJos0JYpg" target="_blank"> ALL VIDEOS </a>
         </span>
 
         <div class="video-body">
@@ -361,8 +359,6 @@
 
 
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
 
         <div class="section-title">
@@ -512,8 +508,7 @@
 
 
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+
         </div>
         <div class="section-title">
             <a href="./messages.php"> ALL MESSAGES </a>
@@ -528,9 +523,9 @@
 
     <section class="download-our-app">
         <div class="download-our-app-container">
-            <div class="our-apps-title">
+            <!-- <div class="our-apps-title">
                 Our App
-            </div>
+            </div> -->
             <div class="our-apps-icons">
                 <div class="icon-each">
                     <img src="./images/Legalfriend.png" alt=""> <br>
@@ -565,10 +560,12 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script>
     var swiper = new Swiper(".mySwiper", {
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        }
     });
     </script>
 

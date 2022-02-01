@@ -15,6 +15,7 @@
     <div class="headline-text">
         শিরোনাম
     </div>
+
     <marquee direction="left">
         <?php echo $headlines; ?>
     </marquee>

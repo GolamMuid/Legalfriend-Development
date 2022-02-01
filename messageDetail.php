@@ -95,6 +95,7 @@ $id = $_GET['id'];
             {
             $id = $row['id'];
             $message_date = $row['message_date'];
+            $newdate = date('d M y',strtotime($message_date));
             $image = $row['image'];
             $name = $row['name'];
             $designation = $row['designation'];
@@ -102,7 +103,7 @@ $id = $_GET['id'];
             $headline = $row['headline'];
             $body = $row['body'];
             $topic = $row['topic'];
-            $caption = $row['url_link'];
+            $link = $row['url_link'];
             }
              ?>
 
@@ -115,9 +116,9 @@ $id = $_GET['id'];
                             <img src="./images/author.jpg" alt="">
                         </div>
                         <div class="article-author-detail">
-                            প্রতিবেদকঃ <?php echo $headline ?>
+                            <?php echo $headline ?>
                             <br>
-                            প্রকাশিতঃ <?php echo $message_date ?>
+                            <?php echo $newdate ?>
                         </div>
                         <div class="article-share">
                             <a href="">
@@ -128,9 +129,9 @@ $id = $_GET['id'];
                             </a>
                         </div>
                     </div>
-                    <figure>
+                    <figure class="article-figure">
                         <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
-                        <figcaption><?php echo $caption ?></figcaption>
+                        <figcaption></figcaption>
 
                     </figure>
 
@@ -142,16 +143,28 @@ $id = $_GET['id'];
                     <div class="message-topic">
                         <?php echo $topic ?>
                     </div>
+
+                    <div class="author-details">
+                        <br>
+                        <?php echo $name ?> <br>
+                        <?php echo $designation ?> <br>
+                        <?php echo $address ?> <br>
+                        <a href="<?php echo $link ?>">Profile Link</a>
+
+                    </div>
+
+
+
                 </div>
                 <div class="more-articles-sidebar">
                     <div class="article-sidebar-title">
-                        অন্যান্য আর্টিকেল
+                        অন্যান্য বার্তা
                     </div>
 
                     <div class="article-sidebar-contents">
                         <?php
             include 'Admin/config.php';
-            $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 10 OFFSET 0";
+            $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 10 OFFSET 0";
 
             $result = $conn -> query($sql);
 

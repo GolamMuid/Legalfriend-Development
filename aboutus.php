@@ -119,10 +119,10 @@
                     Our App:
                 </div>
                 <div class="about-us-icons">
-                    <a href="">
+                    <a href="serviceNotAvailable.php">
                         <img src="./images/Legalfriend.png" alt="">
                     </a>
-                    <a href="">
+                    <a href="serviceNotAvailable.php">
                         <img src="./images/Legaldiary.png" alt="">
                     </a>
 
@@ -132,10 +132,11 @@
                 <div class="about-us-title">
                     <p>Join Us</p>
                 </div>
-                <a href=""> <img src="./images/facebook.png" alt=""> </a>
-                <a href=""> <img src="./images/linkedin.png" alt=""> </a>
-                <a href=""> <img src="./images/instagram.png" alt=""> </a>
-                <a href=""> <img src="./images/youtube.png" alt=""> </a>
+                <a href="https://www.facebook.com/legalfriendbd/"> <img src="./images/facebook.png" alt=""> </a>
+                <a href="serviceNotAvailable.php"> <img src="./images/linkedin.png" alt=""> </a>
+                <a href="https://www.instagram.com/legalfriendbd/"> <img src="./images/instagram.png" alt=""> </a>
+                <a href="https://www.youtube.com/channel/UCSpCs90r46ro4ttJos0JYpg"> <img src="./images/youtube.png"
+                        alt=""> </a>
             </div>
 
 

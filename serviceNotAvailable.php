@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LegalFriend - Notifications </title>
+    <title>LegalFriend - Calender</title>
     <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -36,7 +36,7 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="messages.php">MESSAGES</a></li>
                     <li><a href="articles.php">ARTICLES</a></li>
-                    <li><a class="active" href="notification.php">NOTIFICATION</a></li>
+                    <li><a href="notification.php">NOTIFICATION</a></li>
                     <li class="calender"> <a href="calender.php"> CALENDER
                             <ul class="dropdown">
                                 <li> <a href="nationalCalender.php"> জাতীয় ক্যালেন্ডার </a></li>
@@ -57,10 +57,10 @@
             <div class="headine-rightbar">
 
                 <?php
-               include 'inc/headline.php';
+               include 'inc/headline.php'
                ?>
                 <?php
-               include 'inc/rightbar.php';
+               include 'inc/rightbar.php'
                ?>
 
             </div>
@@ -70,9 +70,15 @@
 
 
     <div class="responsive-logo">
-        <?php
+
+        <div class="responsive-logo">
+            <?php 
         include 'inc/responsivelogo.php'
         ?>
+
+
+        </div>
+
 
     </div>
 
@@ -80,74 +86,24 @@
 
     <section class="page-body">
         <div class="page-container">
-            <div class="page-title-container">
-                NOTIFICATION
-            </div>
-
-            <div class="notification-card-container">
-
-                <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `notifications` ORDER BY ID DESC LIMIT 10 OFFSET 40";
-
-            $result = $conn -> query($sql);
-
-            while ($row = mysqli_fetch_assoc($result))
-            { 
-                $id = $row['id'];
-                $date = $row['notification_date'];
-                $date1 = date('d', strtotime($date));
-                $date2 = date('M y', strtotime($date));
-                $headline = $row['headline'];
-            
-            ?>
 
 
-
-                <div class="notification-card">
-
-
-
-                    <div class="notification-date">
-                        <p class="date1"> <?php echo $date1 ?> </p>
-                        <p class="date2"><?php echo $date2 ?></p>
-                    </div>
-                    <div class="notification-details">
-
-                        <?php echo $headline; ?> <br>
-                        <button onClick="window.location.href='notificationDetail.php?id=<?php echo $id; ?>';"
-                            class="view-button">VIEW</button>
-
-
-                    </div>
-
-
-
-                </div>
-
-                <?php
-            }
-            ?>
+            <div class="no-service-body">
+                This service is not currently available. Please stay tuned.
 
 
             </div>
 
-            <div class="page-numbers">
-                <button onClick="window.location.href='notification.php';"> 1 </button>
-                <button onClick="window.location.href='notification2.php';"> 2 </button>
-                <button onClick="window.location.href='notification3.php';"> 3 </button>
-                <button onClick="window.location.href='notification4.php';"> 4 </button>
-                <button class="on" onClick="window.location.href='notification5.php';"> 5 </button>
-            </div>
+
         </div>
     </section>
-
     <footer>
-        <?php
-        include 'inc/footer.php'
-        ?>
-    </footer>
 
+        <?php
+    include 'inc/footer.php'
+    ?>
+
+    </footer>
 </body>
 
 </html>

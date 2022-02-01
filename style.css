@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://cdn.rawgit.com/sh4hids/bangla-web-fonts/solaimanlipi/stylesheet.css");
 /* @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 
@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Barlow Semi Condensed", sans-serif, "SolaimanLipi";
+  font-family: "Barlow Condensed", sans-serif, "SolaimanLipi";
 }
 
 a:link,
@@ -32,7 +32,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 50px 0px 100px;
+  padding: 0px 50px 0px 20px;
   box-shadow: 0 6px 6px -2px gray;
   position: fixed;
   width: 100%;
@@ -41,6 +41,11 @@ nav {
 
 nav .logo {
   height: auto;
+}
+
+nav .logo img {
+  height: 36px;
+  margin-left: 20px;
 }
 
 nav ul {
@@ -55,15 +60,19 @@ nav ul li {
 nav ul li a {
   color: #9f9f9f;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   transition: all 0.3s ease;
   overflow-y: auto;
 }
 
-nav ul li a:hover,
+nav ul li a:hover {
+  color: #009245;
+}
+
 nav ul li a.active {
-  color: #3c5084;
+  color: #009245;
+  font-weight: 800;
 }
 
 nav .menu-btn i {
@@ -100,11 +109,6 @@ nav .menu-btn i {
 
 /* Headline */
 
-/* .headine-rightbar {
-  display: grid;
-  grid-template-columns: 9fr 1fr;
-} */
-
 #headline {
   display: grid;
   grid-template-columns: 1fr 10fr;
@@ -117,7 +121,7 @@ nav .menu-btn i {
 .headline-text {
   text-align: center;
   padding: 6px 10px 0px 10px;
-  background-color: #002800;
+  background-color: #055405;
   color: #e6d417;
   font-size: 22px;
   margin-top: 20px;
@@ -128,14 +132,15 @@ nav .menu-btn i {
 }
 
 marquee {
-  /* width: 100%; */
   width: calc(100% - 34px);
   height: auto;
   padding: 10px;
   margin: 20px;
   margin-left: 0px;
   border: solid 1px #c6cec6;
-  color: #f15a24;
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
   max-height: 45px;
   background-color: white;
 }
@@ -147,7 +152,7 @@ marquee {
   padding: 6px 10px 0px 10px;
   position: fixed;
   right: 0;
-  top: 100px;
+  top: 90px;
   width: 10%;
 }
 
@@ -186,6 +191,19 @@ marquee {
   transition: 0.3s all ease;
 }
 
+.messenger-icon {
+  background-color: #009245;
+  display: flex;
+  flex-direction: column;
+}
+
+.messenger-icon a {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  font-style: italic;
+}
+
 .responsive-logo {
   display: none;
 }
@@ -208,7 +226,7 @@ body {
 }
 
 .notification-container {
-  background-color: blue;
+  background-color: #0071bc;
 }
 
 .section-title {
@@ -227,12 +245,20 @@ body {
   cursor: pointer;
 }
 
-.right {
+/* .right {
   float: right;
-}
+  top: 0;
+} */
 
 .right a {
   color: white;
+  float: right;
+  top: 0;
+  margin-right: 18px;
+}
+
+.notification-card-container {
+  min-height: 90vh;
 }
 
 .notification-card {
@@ -357,7 +383,7 @@ body {
 .date {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 8px;
 }
 
 .home-article img {
@@ -491,11 +517,11 @@ body {
 /* Download our app starts  */
 
 .download-our-app {
-  display: none;
+  /* display: none; */
+  width: 90%;
 }
 
 .download-our-app-container {
-  width: 90%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -509,9 +535,8 @@ body {
 
 .our-apps-icons {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-end;
-  border-top: solid 2px black;
 }
 
 .our-apps-icons button {
@@ -628,9 +653,9 @@ footer {
 }
 
 .privacy-policy {
-  position: absolute;
+  /* position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .privacy-policy a {
@@ -645,10 +670,11 @@ footer {
   width: 86%;
   margin-left: 34px;
   z-index: 9999;
+  min-height: 90vh;
 }
 
 .page-title-container {
-  background-color: #002800;
+  background-color: #055405;
   padding: 10px 0 10px 34px;
   font-size: 22px;
   color: #e6d417;
@@ -656,8 +682,10 @@ footer {
 
 .message-article-body {
   display: grid;
+  min-height: 70vh;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 12px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
   padding: 6px 30px;
   background-color: #eeeeee;
 }
@@ -786,6 +814,25 @@ footer {
   text-align: center;
 }
 
+.article-figure img {
+  max-width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-text-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.message-text-detail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
 .article-sidebar-title {
   background-color: #d2d2d2;
   font-weight: bold;
@@ -804,8 +851,8 @@ footer {
   font-size: 18px;
 }
 
-.sidebar-contents img {
-  max-height: 100%;
+.sidebar-image img {
+  max-height: 34px;
   max-width: 100%;
   object-fit: cover;
 }
@@ -887,6 +934,17 @@ footer {
 
 /* Calender Page Ends  */
 
+/* service not available  */
+
+.no-service-body {
+  font-size: 28px;
+  text-align: center;
+  line-height: 4;
+  min-height: 90vh;
+}
+
+/* service not available  */
+
 /* Mobile Responsive Design  */
 
 @media only screen and (max-width: 940px) {
@@ -933,6 +991,8 @@ footer {
 
   .body-container {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* notifaction advertise  */
@@ -1032,6 +1092,8 @@ footer {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1039,7 +1101,7 @@ footer {
   }
 
   .responsive-logo img {
-    max-width: 80px;
+    max-width: 70px;
   }
 
   /* Message Article Page Starts */
@@ -1052,6 +1114,7 @@ footer {
   .message-article-body {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     min-height: 90vh;
   }
   .notification-card {

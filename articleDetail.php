@@ -97,14 +97,16 @@ $id = $_GET['id'];
 			{
 			$id = $row['id'];
 			$message_date = $row['message_date'];
+            $newdate = date('d M y',strtotime($message_date));
 			$image = $row['image'];
 			$name = $row['name'];
 			$designation = $row['designation'];
 			$address = $row['address'];
 			$headline = $row['headline'];
 			$body = $row['body'];
-			$topic = $row['url'];
+			$link = $row['url'];
 			$image_title = $row['image_title'];
+
             }
 			?>
 
@@ -119,9 +121,9 @@ $id = $_GET['id'];
                             <img src="./images/author.jpg" alt="">
                         </div>
                         <div class="article-author-detail">
-                            প্রতিবেদকঃ <?php echo $name ?>
+                            <?php echo $name ?>
                             <br>
-                            প্রকাশিতঃ <?php echo $name ?>
+                            <?php echo $newdate ?>
                         </div>
                         <div class="article-share">
                             <a href="">
@@ -132,7 +134,7 @@ $id = $_GET['id'];
                             </a>
                         </div>
                     </div>
-                    <figure>
+                    <figure class="article-figure">
                         <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                         <figcaption> <?php echo $image_title ?> </figcaption>
 
@@ -144,7 +146,15 @@ $id = $_GET['id'];
                     </div>
 
                     <div class="article-topic">
-                        <?php echo $topic ?>
+
+                    </div>
+
+                    <div class="author-details">
+                        <?php echo $name ?> <br>
+                        <?php echo $designation ?> <br>
+                        <?php echo $address ?> <br>
+                        <a href="<?php echo $link ?>">Profile Link</a>
+
                     </div>
 
 
