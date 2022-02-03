@@ -100,6 +100,7 @@ $id = $_GET['id'];
             $image = $row['image'];
             $des = $row['des'];
             $notifications_date = $row['notification_date'];
+            $newdate = date('d M y',strtotime($notifications_date));
             $headline = $row['headline'];
             $image_title = $row['image_link'];                          
             }                                
@@ -110,7 +111,11 @@ $id = $_GET['id'];
                 </div>
 
                 <div class="notification-detail-date">
-                    <?php echo $notifications_date ?>
+                    <?php echo $newdate ?>
+                </div>
+
+                <div class="notification-detail-date">
+                    <?php echo $name ?>
                 </div>
 
                 <div class="notification-detail-text">
@@ -119,6 +124,7 @@ $id = $_GET['id'];
 
                 <div class="notification-detail-image">
                     <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+                    <?php echo $image_title ?>
                 </div>
 
             </div>

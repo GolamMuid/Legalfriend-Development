@@ -157,9 +157,9 @@ marquee {
 }
 
 .right-bar img {
-  max-height: 50px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  max-height: 65px;
+  margin-top: 6px;
+  margin-bottom: 6px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -353,6 +353,10 @@ body {
   align-items: center;
 }
 
+.advertise-image video {
+  height: 180px;
+}
+
 .ad-image {
   height: 170px;
   width: 170px;
@@ -383,7 +387,9 @@ body {
 .date {
   position: absolute;
   top: 0;
-  right: 8px;
+  right: 0;
+  background-color: white;
+  padding: 4px;
 }
 
 .home-article img {
@@ -763,6 +769,10 @@ footer {
   object-fit: fill;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 10px;
 }
 
 .notification-detail-image img {
@@ -827,9 +837,22 @@ footer {
   font-size: 18px;
 }
 
+.article-text-description p {
+  font-size: 18px;
+}
+
 .message-text-detail {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.message-text-detail p {
+  font-size: 18px;
+}
+
+.message-topic,
+.author-details {
   font-size: 18px;
 }
 
@@ -857,20 +880,30 @@ footer {
   object-fit: cover;
 }
 
+.sidebar-texts {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 /* Article Detail page ends  */
 
 /* About Us page starts  */
 
 /* About us page starts  */
 
-.about-us-body img {
-  float: left;
-  padding: 20px;
-  max-width: 500px;
+.about-us-body {
+  font-size: 18px;
 }
 
-.about-us-body p {
-  text-align: justify;
+.about-us-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.about-us-image img {
+  max-width: 500px;
 }
 
 .about-us-title {
@@ -1109,6 +1142,7 @@ footer {
   .page-container {
     width: 90%;
     min-height: 90vh;
+    margin: auto;
   }
 
   .message-article-body {
@@ -1117,6 +1151,7 @@ footer {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     min-height: 90vh;
   }
+
   .notification-card {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -1135,6 +1170,10 @@ footer {
     border: none;
   }
 
+  .article-figure img {
+    max-width: 70%;
+  }
+
   .more-articles-sidebar {
     max-height: 300px;
     overflow: scroll;
@@ -1143,6 +1182,14 @@ footer {
   }
 
   /* Article detail page ends  */
+
+  /* About Us page starts  */
+
+  .about-us-image img {
+    max-width: 70%;
+  }
+
+  /* About Us page ends  */
 }
 
 /* Custom Scroll bar  */

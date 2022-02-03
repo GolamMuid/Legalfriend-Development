@@ -119,7 +119,7 @@
                         <div class="notification-details">
 
                             <?php echo $headline; ?> <br>
-                            <button onClick="window.location.href='notificationDetail.php?id=<?php echo $id; ?>';"
+                            <button onClick="document.location='notificationDetail.php?id=<?php echo $id; ?>';"
                                 class="view-button">VIEW</button>
 
                         </div>
@@ -159,16 +159,19 @@
 
                     <div class="advertises">
                         <div class="advertise-image">
-                            <a href="<?php echo $advertise_link ?>">
-                                <img class="ad-image" src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
 
+
+                            <video controls>
+                                <source src="./Admin/Action/upload/<?php echo $image ?>" type="video/mp4">
+
+                            </video>
 
                         </div>
                         <div class="advertise-text">
-
+                            <?php echo $advertise_link ?>
 
                         </div>
-                        </a>
+
 
                     </div>
 
@@ -188,6 +191,7 @@
         </div>
     </section>
 
+
     <section class="article-container">
 
         <span class="section-title">
@@ -206,7 +210,7 @@
 
             while ($row = mysqli_fetch_assoc($result))
             { 
-               
+                $id = $row['id'];
                 $headline = $row['headline'];
                 $date = $row['message_date'];
                 $newdate = date('d M y',strtotime($date));
@@ -216,7 +220,7 @@
 
 
             <div class="home-article">
-                <a href="">
+                <a href="articleDetail.php?id=<?php echo $id; ?>">
                     <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                     <p> <?php echo $headline ?> </p>
                 </a>
@@ -249,7 +253,7 @@
 
             while ($row = mysqli_fetch_assoc($result))
             { 
-               
+                $id = $row['id'];
                 $headline = $row['headline'];
                 $date = $row['message_date'];
                 $newdate = date('d M y',strtotime($date));
@@ -260,7 +264,7 @@
 
                 <div class="swiper-slide">
                     <div class="home-article">
-                        <a href="">
+                        <a href="articleDetail.php?id=<?php echo $id; ?>">
                             <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                             <p> <?php echo $headline ?> </p>
                         </a>
@@ -386,7 +390,7 @@
 
             while ($row = mysqli_fetch_assoc($result))
             { 
-               
+                $id = $row['id'];
                 $date = $row['message_date'];
                 $newdate = date('d M y',strtotime($date));
                 $image = $row['image'];
@@ -399,7 +403,7 @@
             ?>
 
             <div class="home-message">
-                <a href="">
+                <a href="messageDetail.php?id=<?php echo $id; ?>">
                     <div class="message-image-author-container">
                         <div class="message-image">
                             <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
@@ -454,7 +458,7 @@
 
             while ($row = mysqli_fetch_assoc($result))
             { 
-               
+                $id = $row['id'];
                 $date = $row['message_date'];
                 $newdate = date('d M y',strtotime($date));
                 $image = $row['image'];
@@ -469,7 +473,7 @@
 
                 <div class="swiper-slide">
                     <div class="home-message">
-                        <a href="">
+                        <a href="messageDetail.php?id=<?php echo $id; ?>">
                             <div class="message-image-author-container">
                                 <div class="message-image">
                                     <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />

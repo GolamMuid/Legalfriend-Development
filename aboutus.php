@@ -100,10 +100,14 @@
             $number = $row['image_link'];
             }
             ?>
-                <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
-                <p>
+                <div class="about-us-image">
+                    <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+                </div>
+                <div class="about-us-description">
+
                     <?php echo $des ?>
-                </p>
+
+                </div>
 
 
                 <div class="about-us-title">

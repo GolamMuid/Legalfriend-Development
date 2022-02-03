@@ -5,11 +5,34 @@
             <div class="footer-title">
                 Contact
             </div>
-            <div class="footer-contents">
+
+            <!-- <div class="footer-contents">
                 <p> <i class="fas fa-home"></i> <strong> Legalfriend Bangladesh </strong> </p>
                 <p> &nbsp; &nbsp; &nbsp; Sheikhdi R/A, Donia, Zatrabari, Dhaka</p>
                 <p> <i class="fas fa-phone-alt"></i> +8801779888281</p>
                 <p> <i class="fas fa-envelope"></i> legalfriendbd@gmail.com</p>
+            </div> -->
+
+
+            <div class="footer-contents">
+                <table>
+                    <tr>
+                        <td> <i class="fas fa-home"></i> </td>
+                        <td> <strong> Legalfriend Bangladesh </strong> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Sheikhdi R/A, Donia, Zatrabari, Dhaka</td>
+                    </tr>
+                    <tr>
+                        <td> <i class="fas fa-phone-alt"></i> </td>
+                        <td> +8801779888281 </td>
+                    </tr>
+                    <tr>
+                        <td> <i class="fas fa-envelope"></i> </td>
+                        <td> legalfriendbd@gmail.com </td>
+                    </tr>
+                </table>
             </div>
 
         </div>
