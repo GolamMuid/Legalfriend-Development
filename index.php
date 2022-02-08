@@ -46,6 +46,9 @@
                         </a>
                     </li>
                     <li><a href="aboutus.php">ABOUTus</a></li>
+                    <li>
+                        <button class="login" onClick="document.location='login.php';"> Login </button>
+                    </li>
                 </ul>
             </nav>
 

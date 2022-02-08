@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LegalFriend - High Court Calender</title>
+    <title>LegalFriend - Home</title>
     <link rel="icon" href="images/Legalfriend.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -14,7 +15,7 @@
 </head>
 
 <body>
-    <section id="header">
+    <section id="header" style="height:42px;">
 
         <div class="header-container">
 
@@ -33,11 +34,11 @@
                     <i class="fas fa-bars"></i>
                 </label>
                 <ul>
-                    <li><a href="index.php">HOME</a></li>
+                    <li><a class="active" href="index.php">HOME</a></li>
                     <li><a href="messages.php">MESSAGES</a></li>
                     <li><a href="articles.php">ARTICLES</a></li>
                     <li><a href="notification.php">NOTIFICATION</a></li>
-                    <li class="calender"> <a class="active" href="calender.php"> CALENDER
+                    <li class="calender"> <a href="calender.php"> CALENDER
                             <ul class="dropdown">
                                 <li> <a href="nationalCalender.php"> জাতীয় ক্যালেন্ডার </a></li>
                                 <li> <a href="highcourtCalender.php"> হাইকোর্ট ক্যালেন্ডার </a></li>
@@ -46,7 +47,7 @@
                     </li>
                     <li><a href="aboutus.php">ABOUTus</a></li>
                     <li>
-                        <button class="login" onClick="document.location='login.php';"> Login </button>
+                        <button class="login"> Login </button>
                     </li>
                 </ul>
             </nav>
@@ -55,72 +56,58 @@
             <!-- Navbar Ends  -->
 
 
-            <!-- Headline  -->
-
-            <div class="headine-rightbar">
-
-                <?php
-            include 'inc/headline.php'
-            ?>
-                <?php
-            include 'inc/rightbar.php'
-            ?>
+            <?php 
+                include 'inc/rightbar.php';
+                ?>
 
 
-            </div>
         </div>
+
+
+
     </section>
 
 
 
     <div class="responsive-logo">
-        <?php
-    include 'inc/responsivelogo.php'
-    ?>
+        <?php 
+        include 'inc/responsivelogo.php'
+        ?>
+
 
     </div>
 
-    <section class="page-body">
-        <div class="page-container">
-            <div class="page-title-container">
-                CALENDER
+    <!-- Registration Body Starts  -->
+
+    <section class="verfication-body">
+        <div class="login-body-container container">
+
+            <div class="login-image-container">
+                <img src="./images/aboutus.png" alt="LegalFriend">
+                <p>
+                    Make your professional life best
+                </p>
             </div>
 
-            <div class="calender-page-body">
-                <div class="calender-img-body">
-                    <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `calenders` ORDER BY ID LIMIT 2";
+            <div class="login-form-container">
+                <form name="registartion-form" class="login-form" action="">
+                    <input class="inputs" type="text" id="registration-phone-number" name="phone-number"
+                        placeholder="Phone Number 01#########">
+                    <input class="create-new-profile" type="submit" value="Send OTP">
+                </form>
 
-            $result = $conn -> query($sql);
-
-            while ($row = mysqli_fetch_assoc($result))
-            {
-                $image = $row['image'];
-                $title = $row['image_link'];
-           
-            }
-            ?>
-                    <div class="calender-image">
-                        <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
-                    </div>
-                    <div class="calender-title">
-                        <p> <?php echo $title ?> </p>
-                    </div>
-                </div>
+                <p> Your mobile number will be your USER ID </p>
+                <p> It will be needed to login again </p>
 
             </div>
-
 
         </div>
+
     </section>
-    <footer>
 
-        <?php
-    include 'inc/footer.php'
-    ?>
 
-    </footer>
+    <!-- Registration Body Ends  -->
+
 </body>
 
 </html>
