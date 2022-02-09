@@ -47,7 +47,7 @@
                     </li>
                     <li><a href="aboutus.php">ABOUTus</a></li>
                     <li>
-                        <button class="login"> Login </button>
+                        <button class="login" onClick="document.location='login.php';"> Login </button>
                     </li>
                 </ul>
             </nav>
@@ -79,7 +79,7 @@
 
     <!-- Registration Body Starts  -->
 
-    <section class="verfication-body">
+    <section class="Registration-body">
         <div class="login-body-container container">
 
             <div class="login-image-container">
@@ -90,7 +90,7 @@
             </div>
 
             <div class="login-form-container">
-                <form name="registartion-form" class="login-form" action="">
+                <form name="registartion-form" class="login-form" method="POST" action="verification.php">
                     <input class="inputs" type="text" id="registration-phone-number" name="phone-number"
                         placeholder="Phone Number 01#########">
                     <input class="create-new-profile" type="submit" value="Send OTP">

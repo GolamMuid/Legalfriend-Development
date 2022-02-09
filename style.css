@@ -1026,6 +1026,7 @@ footer {
 
 .login-image-container {
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .login-image-container p {
@@ -1112,6 +1113,77 @@ footer {
 }
 
 /* Login form Ends  */
+
+/* Verification Starts  */
+
+/* Verification Starts  */
+
+/* Create profile starts */
+
+.create-profile-container {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-profile-form-container {
+  background-color: white;
+  padding: 20px;
+}
+
+.create-profile {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: #757575;
+}
+
+.profile-input {
+  width: 100%;
+  font-size: 22px;
+  border: #3251a2 1px solid;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4px;
+}
+
+.radio-hide {
+  /* display: none; */
+}
+
+.select-button {
+  font-size: 22px;
+  border: #3251a2 1px solid;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+}
+
+.gender:checked .select-button {
+  background-color: blue;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Create profile ends */
 
 /* Mobile Responsive Design  */
 

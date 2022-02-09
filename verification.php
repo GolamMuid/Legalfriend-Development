@@ -68,58 +68,37 @@
     </section>
 
 
+    <!-- Verification Body Starts  -->
 
-    <div class="responsive-logo">
-        <?php 
-        include 'inc/responsivelogo.php'
-        ?>
-
-
-    </div>
-
-    <!-- Login Body Starts  -->
-
-    <section class="Login-body">
+    <section class="verfication-body">
         <div class="login-body-container container">
 
             <div class="login-image-container">
-                <img src="./images/login.png" alt="LegalFriend">
+                <img src="./images/aboutus.png" alt="LegalFriend">
+                <p>
+                    Make your professional life best
+                </p>
             </div>
 
             <div class="login-form-container">
-                <form name="login-form" class="login-form" action="">
-                    <input class="inputs" type="text" id="login-phone-number" name="phone-number"
-                        placeholder="Phone Number">
-                    <input class="inputs" type="password" id="login-password" name="password" placeholder="Password">
-                    <input class="login-button" type="submit" value="Login">
+                <form name="registartion-form" class="login-form" action="">
+                    <input class="inputs" type="text" id="registration-phone-number" name="phone-number"
+                        placeholder="OTP">
+                    <input class="create-new-profile" type="submit" value="Go On">
                 </form>
 
-                <a href="">Forgot Password?</a>
-
-                <button class="create-new-profile" onClick="document.location='registration.php';">Create New
-                    Profile</button>
+                <p> Let us know this mobile number belongs to you </p>
+                <p> Enter the code that was sent to your mobile </p>
+                <a href="verification.php">Send Again</a>
 
             </div>
 
         </div>
 
-
-
-
-
-
     </section>
 
 
-
-
-
-    <!-- Login Body Ends  -->
-
-
-
-
-
+    <!-- Registration Body Ends  -->
 
 </body>
 
