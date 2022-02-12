@@ -185,6 +185,8 @@
                         You need to login to a new device
                     </p>
                     <br>
+                    <label for="profile-picture">Upload Profile Picture</label>
+                    <input class="profile-input" type="file" placeholder="Upload Profile Picture">
 
                     <input class="profile-input" type="password" id="new-password" name="new-password"
                         placeholder="Make New Password" autocomplete="off">
