@@ -95,7 +95,7 @@
             <div class="profile-information-container">
                 <div class="profile-title-container">
                     <p> Personal Info </p>
-                    <span class="edit_button"> <a href=""> edit </a> </span>
+                    <span class="edit_button"> <a href="profileEdit.php"> edit </a> </span>
                 </div>
 
                 <div class="profile-information-list">

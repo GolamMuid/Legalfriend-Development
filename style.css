@@ -1012,7 +1012,7 @@ footer {
   align-items: center;
   background-color: #f0f2f5;
   padding-top: 40px;
-  /* height: 95vh; */
+  min-height: 95vh;
 }
 
 /* Login Page Ends  */
@@ -1253,13 +1253,11 @@ footer {
 /* Profile Detail starts  */
 
 .profile-detail-container {
-  background-color: #f0f2f5;
-}
-
-.profile-detail-container {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 20px;
+  min-height: 95vh;
+  background-color: #f0f2f5;
 }
 
 .paid-unpaid-container {
@@ -1305,9 +1303,39 @@ footer {
 
 .profile-about-me {
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 /* Profile Detail ends  */
+
+/* Profile Edit Starts  */
+
+.profile-edit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-edit-page-title-container {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.edit-information-category p {
+  margin-bottom: 1px;
+}
+
+.profile-edit {
+  width: 200px;
+}
+
+.profile-edit-about-me {
+  width: 90%;
+  min-height: 200px;
+}
+
+/* Profile Edit Ends  */
 
 /* Mobile Responsive Design  */
 
@@ -1540,6 +1568,7 @@ footer {
   .profile-detail-container {
     display: grid;
     grid-template-columns: 1fr;
+    min-height: 95vh;
   }
 
   /* Profile detail page ends  */
