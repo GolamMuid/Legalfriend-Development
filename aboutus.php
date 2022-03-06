@@ -133,17 +133,23 @@
                         <img src="./images/Legaldiary.png" alt="">
                     </a>
 
+                    <a href="serviceNotAvailable.php">
+                        <img src="./images/Legalfriend.png" alt="">
+                    </a>
+
                 </div>
             </div>
             <div class="join-us">
                 <div class="about-us-title">
                     <p>Join Us</p>
                 </div>
-                <a href="https://www.facebook.com/legalfriendbd/"> <img src="./images/facebook.png" alt=""> </a>
-                <a href="serviceNotAvailable.php"> <img src="./images/linkedin.png" alt=""> </a>
-                <a href="https://www.instagram.com/legalfriendbd/"> <img src="./images/instagram.png" alt=""> </a>
-                <a href="https://www.youtube.com/channel/UCSpCs90r46ro4ttJos0JYpg"> <img src="./images/youtube.png"
+                <a href="https://www.facebook.com/legalfriendbd/" target="_blank"> <img src="./images/facebook.png"
                         alt=""> </a>
+                <a href="serviceNotAvailable.php" target="_blank"> <img src="./images/linkedin.png" alt=""> </a>
+                <a href="https://www.instagram.com/legalfriendbd/" target="_blank"> <img src="./images/instagram.png"
+                        alt=""> </a>
+                <a href="https://www.youtube.com/channel/UCSpCs90r46ro4ttJos0JYpg" target="_blank"> <img
+                        src="./images/youtube.png" alt=""> </a>
             </div>
 
 

@@ -81,7 +81,7 @@
             </div>
 
             <div class="login-form-container">
-                <form name="registartion-form" class="login-form" action="">
+                <form name="registartion-form" class="login-form" action="create-profile.php">
                     <input class="inputs" type="text" id="registration-phone-number" name="phone-number"
                         placeholder="OTP">
                     <input class="create-new-profile" type="submit" value="Go On">

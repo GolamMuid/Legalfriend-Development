@@ -17,11 +17,15 @@
             <div class="footer-contents">
                 <table>
                     <tr>
-                        <td> <i class="fas fa-home"></i> </td>
-                        <td> <strong> Legalfriend Bangladesh </strong> </td>
+                        <td></td>
+                        <td style="font-size:26px; font-weight:700"> Legalfriend Bangladesh </td>
                     </tr>
                     <tr>
                         <td></td>
+                        <td> Legalfriend Bangladesh is the first legal </td>
+                    </tr>
+                    <tr>
+                        <td> <i class="fas fa-home"></i> </td>
                         <td>Sheikhdi R/A, Donia, Zatrabari, Dhaka</td>
                     </tr>
                     <tr>

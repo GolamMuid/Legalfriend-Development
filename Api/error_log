@@ -1,0 +1,337 @@
+[11-Feb-2022 19:06:10 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:06:10 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:06:10 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:06:10 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:06:10 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:07:13 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:07:13 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:07:13 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:07:13 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:07:13 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:07:24 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:07:24 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:07:24 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:07:24 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:07:24 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:07:57 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:07:57 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:07:57 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:07:57 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:07:57 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:09:16 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:09:16 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:09:16 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:09:16 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:09:16 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:09:50 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:09:50 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:09:50 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:09:50 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:09:50 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:12:41 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:12:41 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:12:41 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:12:41 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:12:41 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:13:21 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:13:21 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:13:21 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:13:21 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:13:21 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:13:33 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:13:33 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:13:33 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:13:33 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:13:33 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:14:09 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:14:09 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:14:09 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:14:09 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:14:09 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:14:13 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:14:13 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:14:13 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:14:13 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:14:13 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:14:21 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:14:21 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:14:21 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:14:21 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:14:21 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:18:43 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:18:43 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:18:43 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:18:43 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:18:43 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:19:38 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:19:38 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:19:38 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:19:38 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:19:38 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:35:04 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:35:04 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:35:04 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:35:04 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:35:04 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 19:58:25 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:58:25 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:58:25 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:58:25 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:58:25 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 19:58:44 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:58:44 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:58:44 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:58:44 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:58:44 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 19:59:50 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 19:59:50 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 19:59:50 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:59:50 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 19:59:50 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 14:00:42 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:00:42 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:00:42 UTC] PHP Fatal error:  require(): Failed opening required 'connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:01:10 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:01:10 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:01:10 UTC] PHP Fatal error:  require(): Failed opening required 'connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:01:37 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:01:37 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:01:37 UTC] PHP Fatal error:  require(): Failed opening required 'connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:02:50 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:02:50 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:02:50 UTC] PHP Fatal error:  require(): Failed opening required 'connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:02:53 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:02:53 UTC] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:02:53 UTC] PHP Fatal error:  require(): Failed opening required 'connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 20:05:35 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 20:05:35 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:05:35 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 20:05:35 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 20:05:35 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 14:06:52 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:52 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:52 UTC] PHP Warning:  include(): Failed opening '../Admin/cong.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:52 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:06:52 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:06:52 UTC] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 14:06:54 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:54 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:54 UTC] PHP Warning:  include(): Failed opening '../Admin/cong.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:54 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:06:54 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:06:54 UTC] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 14:06:57 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:57 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:57 UTC] PHP Warning:  include(): Failed opening '../Admin/cong.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:57 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:06:57 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:06:57 UTC] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 14:06:59 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:59 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:59 UTC] PHP Warning:  include(): Failed opening '../Admin/cong.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:06:59 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:06:59 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:06:59 UTC] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:06:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 14:07:00 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:07:00 UTC] PHP Warning:  include(../Admin/cong.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:07:00 UTC] PHP Warning:  include(): Failed opening '../Admin/cong.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:07:00 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:07:00 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:07:00 UTC] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:07:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:07:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 14:08:47 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:08:47 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:08:47 UTC] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:08:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 14:08:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 20:10:30 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 20:10:30 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:10:30 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 20:10:30 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 10
+[11-Feb-2022 20:10:30 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 20:13:38 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:13:38 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 20:13:38 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 20:13:38 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 20:13:38 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 16
+[11-Feb-2022 20:13:38 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 48
+[11-Feb-2022 20:23:36 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:23:36 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 20:23:36 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 20:23:36 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 20:23:36 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 16
+[11-Feb-2022 20:23:36 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 48
+[11-Feb-2022 20:24:06 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:24:06 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 20:24:06 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 20:24:06 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 20:24:06 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 16
+[11-Feb-2022 20:24:06 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 48
+[11-Feb-2022 20:33:19 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:33:19 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:33:19 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:33:19 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:33:19 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 20:39:21 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:39:21 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:39:21 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:21 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:21 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 20:39:26 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:39:26 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:39:26 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:26 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:26 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 20:39:27 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:39:27 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:39:27 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:27 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:27 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 20:39:52 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:39:52 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:39:52 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:52 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:39:52 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 20:40:52 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:40:52 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:40:52 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:40:52 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:40:52 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 20:40:57 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:40:57 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:40:57 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:40:57 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:40:57 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 20:43:15 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 20:43:15 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 7
+[11-Feb-2022 20:43:15 Asia/Dhaka] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:43:15 Asia/Dhaka] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 11
+[11-Feb-2022 20:43:15 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 15
+[11-Feb-2022 14:44:31 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 3
+[11-Feb-2022 14:44:31 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 4
+[11-Feb-2022 14:44:31 UTC] PHP Notice:  Undefined variable: con in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 14:44:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 14:44:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 14:48:30 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:48:30 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:48:42 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:48:42 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:49:07 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:49:07 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 14:49:07 UTC] PHP Notice:  Undefined variable: row in /home/legalfriend/public_html/Api/login.php on line 43
+[11-Feb-2022 14:49:38 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 14:49:38 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 15:56:16 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 15:56:16 UTC] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 15:56:16 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 15:56:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 15:56:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/legalfriend/public_html/Api/login.php on line 14
+[11-Feb-2022 21:57:05 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 21:57:05 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 21:57:37 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 21:57:37 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 21:59:36 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 21:59:36 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 21:59:36 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 27
+[11-Feb-2022 22:00:17 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:00:17 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:00:17 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 27
+[11-Feb-2022 22:00:24 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:00:24 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:00:24 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 27
+[11-Feb-2022 22:10:24 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:10:24 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:10:24 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 27
+[11-Feb-2022 22:10:25 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:10:25 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:10:25 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 27
+[11-Feb-2022 22:10:43 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:10:43 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:10:43 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 27
+[11-Feb-2022 22:11:18 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:11:18 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:18:15 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/legalfriend/public_html/Api/test.php on line 37
+[11-Feb-2022 22:22:52 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:22:52 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:27:02 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 5
+[11-Feb-2022 22:27:02 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 6
+[11-Feb-2022 22:27:19 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/legalfriend/public_html/Api/test.php on line 37
+[11-Feb-2022 22:29:54 Asia/Dhaka] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/legalfriend/public_html/Api/test.php on line 37
+[11-Feb-2022 22:43:30 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:43:30 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:43:30 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:44:53 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:44:53 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:44:53 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:47:06 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:47:06 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:47:06 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:48:12 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:48:12 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:48:12 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:48:16 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:48:16 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:48:16 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/test.php on line 19
+[11-Feb-2022 22:48:26 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 19
+[11-Feb-2022 22:48:26 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 19
+[11-Feb-2022 22:48:26 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 19
+[11-Feb-2022 22:50:41 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 22:50:41 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 9
+[11-Feb-2022 22:51:10 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 22:51:10 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 9
+[11-Feb-2022 22:54:26 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 8
+[11-Feb-2022 22:54:26 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 9
+[11-Feb-2022 22:54:26 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 46
+[11-Feb-2022 22:55:23 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:55:23 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:55:23 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:55:58 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:55:58 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:55:58 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:56:19 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:56:19 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:56:19 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 22
+[11-Feb-2022 22:58:10 Asia/Dhaka] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 22:58:10 Asia/Dhaka] PHP Notice:  Undefined index: password in /home/legalfriend/public_html/Api/login.php on line 13
+[11-Feb-2022 22:58:10 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 50
+[11-Feb-2022 22:58:33 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:58:33 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:58:33 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:59:17 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:59:17 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:59:17 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:59:56 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:59:56 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 22:59:56 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:13:23 Asia/Dhaka] PHP Notice:  Undefined index: phone in /home/legalfriend/public_html/Api/login.php on line 12
+[11-Feb-2022 23:13:23 Asia/Dhaka] PHP Notice:  Undefined variable: response in /home/legalfriend/public_html/Api/login.php on line 50
+[11-Feb-2022 23:13:49 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:13:49 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:13:49 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:16:41 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:16:41 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:16:41 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:17:20 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:17:20 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:17:20 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:18:59 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:18:59 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:18:59 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:19:17 Asia/Dhaka] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:19:17 Asia/Dhaka] PHP Warning:  Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP) in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:19:17 Asia/Dhaka] PHP Warning:  Illegal string offset 'email' in /home/legalfriend/public_html/Api/login.php on line 26
+[11-Feb-2022 23:26:40 Asia/Dhaka] PHP Notice:  Undefined index: status in /home/legalfriend/public_html/Api/registerUser.php on line 16
+[11-Feb-2022 23:26:40 Asia/Dhaka] PHP Notice:  Undefined index: expire_date in /home/legalfriend/public_html/Api/registerUser.php on line 17
+[11-Feb-2022 23:29:07 Asia/Dhaka] PHP Notice:  Undefined index: status in /home/legalfriend/public_html/Api/registerUser.php on line 16
+[11-Feb-2022 23:29:07 Asia/Dhaka] PHP Notice:  Undefined index: expire_date in /home/legalfriend/public_html/Api/registerUser.php on line 17
+[11-Feb-2022 23:30:29 Asia/Dhaka] PHP Notice:  Undefined index: status in /home/legalfriend/public_html/Api/registerUser.php on line 16
+[11-Feb-2022 23:30:29 Asia/Dhaka] PHP Notice:  Undefined index: expire_date in /home/legalfriend/public_html/Api/registerUser.php on line 17

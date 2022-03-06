@@ -1,0 +1,200 @@
+[13-Jan-2022 15:19:06 Asia/Dhaka] PHP Notice:  Undefined index: message_topic in /home/legalfriend/public_html/Admin/Action/message_action.php on line 21
+[13-Jan-2022 16:37:40 Asia/Dhaka] PHP Notice:  Undefined variable: sql in /home/legalfriend/public_html/Admin/Action/article_action.php on line 31
+[13-Jan-2022 16:43:45 Asia/Dhaka] PHP Notice:  Undefined variable: sql in /home/legalfriend/public_html/Admin/Action/article_action.php on line 31
+[13-Jan-2022 18:03:39 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 4
+[13-Jan-2022 18:03:39 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 4
+[13-Jan-2022 18:03:39 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 13
+[13-Jan-2022 18:03:39 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 13
+[13-Jan-2022 18:03:39 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 17
+[13-Jan-2022 18:03:39 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 21
+[13-Jan-2022 18:03:39 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 22
+[13-Jan-2022 18:20:09 Asia/Dhaka] PHP Notice:  Undefined index: image_title in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 23
+[13-Jan-2022 18:20:09 Asia/Dhaka] PHP Notice:  Undefined index: image_title in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 50
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Notice:  Undefined index: menu_two in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 7
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Notice:  Undefined index: menu_three in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 8
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Notice:  Undefined index: menu_four in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 9
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Notice:  Undefined index: menu_five in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 10
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Notice:  Undefined index: menu_six in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 11
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Notice:  Undefined index: menu_seven in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 12
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 15
+[13-Jan-2022 19:33:31 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 16
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Notice:  Undefined index: menu_two in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 7
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Notice:  Undefined index: menu_three in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 8
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Notice:  Undefined index: menu_four in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 9
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Notice:  Undefined index: menu_five in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 10
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Notice:  Undefined index: menu_six in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 11
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Notice:  Undefined index: menu_seven in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 12
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 15
+[14-Jan-2022 19:35:14 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 16
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Notice:  Undefined index: menu_two in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 7
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Notice:  Undefined index: menu_three in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 8
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Notice:  Undefined index: menu_four in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 9
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Notice:  Undefined index: menu_five in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 10
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Notice:  Undefined index: menu_six in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 11
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Notice:  Undefined index: menu_seven in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 12
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 15
+[14-Jan-2022 19:37:15 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 16
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Notice:  Undefined index: menu_two in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 7
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Notice:  Undefined index: menu_three in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 8
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Notice:  Undefined index: menu_four in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 9
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Notice:  Undefined index: menu_five in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 10
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Notice:  Undefined index: menu_six in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 11
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Notice:  Undefined index: menu_seven in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 12
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 15
+[14-Jan-2022 19:37:40 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/menu_action.php on line 16
+[14-Jan-2022 13:50:27 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:50:27 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined index: first_name in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 15
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined index: last_name in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 16
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined index: gender in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 17
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined index: address in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 18
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 19
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 26
+[14-Jan-2022 13:50:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 26
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:50:27 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:50:27 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 39
+[14-Jan-2022 13:50:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 39
+[14-Jan-2022 13:51:00 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:51:00 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined index: first_name in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 15
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined index: last_name in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 16
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined index: gender in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 17
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined index: address in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 18
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined index: email in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 19
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 26
+[14-Jan-2022 13:51:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 26
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:51:00 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:51:00 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 39
+[14-Jan-2022 13:51:00 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 39
+[14-Jan-2022 13:52:25 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:52:25 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:52:25 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 22
+[14-Jan-2022 13:52:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 22
+[14-Jan-2022 13:52:25 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 31
+[14-Jan-2022 13:52:25 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 31
+[14-Jan-2022 13:52:25 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:52:25 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:53:12 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:53:12 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:53:12 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 22
+[14-Jan-2022 13:53:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 22
+[14-Jan-2022 13:53:12 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 31
+[14-Jan-2022 13:53:12 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 31
+[14-Jan-2022 13:53:12 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:53:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:55:49 UTC] PHP Warning:  include_once(config.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:55:49 UTC] PHP Warning:  include_once(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 12
+[14-Jan-2022 13:55:49 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 22
+[14-Jan-2022 13:55:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 22
+[14-Jan-2022 13:55:49 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 31
+[14-Jan-2022 13:55:49 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 31
+[14-Jan-2022 13:55:49 UTC] PHP Notice:  Undefined variable: conn in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 13:55:49 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 35
+[14-Jan-2022 19:56:31 Asia/Dhaka] PHP Notice:  Undefined variable: last_name in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 29
+[14-Jan-2022 19:56:31 Asia/Dhaka] PHP Notice:  Undefined variable: gender in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 30
+[14-Jan-2022 19:56:31 Asia/Dhaka] PHP Notice:  Undefined variable: address in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 30
+[14-Jan-2022 19:56:31 Asia/Dhaka] PHP Notice:  Undefined variable: email in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 30
+[14-Jan-2022 19:57:04 Asia/Dhaka] PHP Notice:  Undefined variable: last_name in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 29
+[14-Jan-2022 19:57:04 Asia/Dhaka] PHP Notice:  Undefined variable: gender in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 30
+[14-Jan-2022 19:57:04 Asia/Dhaka] PHP Notice:  Undefined variable: address in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 30
+[14-Jan-2022 19:57:04 Asia/Dhaka] PHP Notice:  Undefined variable: email in /home/legalfriend/public_html/Admin/Action/headline_action.php on line 30
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_image in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 4
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 4
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_image in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 11
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 11
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_date in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 14
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_speaker_name in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 16
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_speaker_designation in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 17
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_speaker_address in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 18
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: Message_headline in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 19
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: url_link in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 21
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: topic in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 22
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_date in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 27
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_image in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 32
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_speaker_name in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 36
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_speaker_designation in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 40
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: message_speaker_address in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 45
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: Message_headline in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 49
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: url_link in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 57
+[14-Jan-2022 20:18:13 Asia/Dhaka] PHP Notice:  Undefined index: topic in /home/legalfriend/public_html/Admin/Action/edit_message_action.php on line 61
+[14-Jan-2022 20:49:31 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 17
+[14-Jan-2022 20:49:31 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 21
+[14-Jan-2022 20:49:31 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 22
+[14-Jan-2022 20:51:03 Asia/Dhaka] PHP Notice:  Undefined variable: sql in /home/legalfriend/public_html/Admin/Action/advertisement_action.php on line 29
+[14-Jan-2022 20:51:26 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/advertisement_action.php on line 4
+[14-Jan-2022 20:51:26 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/advertisement_action.php on line 4
+[14-Jan-2022 20:51:26 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/advertisement_action.php on line 13
+[14-Jan-2022 20:51:26 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/advertisement_action.php on line 13
+[14-Jan-2022 20:51:26 Asia/Dhaka] PHP Notice:  Undefined index: image_title in /home/legalfriend/public_html/Admin/Action/advertisement_action.php on line 21
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 4
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 4
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 13
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 13
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 17
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 21
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 22
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: image_title in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 23
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 29
+[14-Jan-2022 21:07:27 Asia/Dhaka] PHP Notice:  Undefined index: image_title in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 34
+[14-Jan-2022 21:08:16 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 17
+[14-Jan-2022 21:08:16 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 21
+[14-Jan-2022 21:08:16 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 22
+[14-Jan-2022 21:08:31 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 17
+[14-Jan-2022 21:08:31 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 21
+[14-Jan-2022 21:08:31 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/edit_advertisement_action.php on line 22
+[14-Jan-2022 21:42:58 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_calender_action.php on line 17
+[14-Jan-2022 21:42:58 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_calender_action.php on line 21
+[14-Jan-2022 21:42:58 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/edit_calender_action.php on line 22
+[14-Jan-2022 21:45:08 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_calender_action.php on line 17
+[14-Jan-2022 21:45:08 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_calender_action.php on line 21
+[14-Jan-2022 21:45:08 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/edit_calender_action.php on line 22
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 4
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 4
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 13
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 13
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 17
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 21
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 28
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 32
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: p_des in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 36
+[14-Jan-2022 22:18:17 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_notification_action.php on line 40
+[14-Jan-2022 22:20:05 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:20:05 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:20:05 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:20:05 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:20:05 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 17
+[14-Jan-2022 22:20:05 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 21
+[14-Jan-2022 22:20:38 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:20:38 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:20:38 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:20:38 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:20:38 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 17
+[14-Jan-2022 22:20:38 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 21
+[14-Jan-2022 22:20:50 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:20:50 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:20:50 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:20:50 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:20:50 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 17
+[14-Jan-2022 22:20:50 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 21
+[14-Jan-2022 22:21:01 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:21:01 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 4
+[14-Jan-2022 22:21:01 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:21:01 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 13
+[14-Jan-2022 22:21:01 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 17
+[14-Jan-2022 22:21:01 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/edit_video_action.php on line 21
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 4
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 4
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Undefined index: logo in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 13
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Trying to access array offset on value of type null in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 13
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Undefined index: p_name in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 17
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Undefined index: notification_date in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 21
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Undefined index: notification_headline in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 22
+[02-Mar-2022 17:13:30 Asia/Dhaka] PHP Notice:  Undefined index: image_title in /home/legalfriend/public_html/Admin/Action/notification_action.php on line 23
+[06-Mar-2022 09:43:33 Asia/Dhaka] PHP Warning:  move_uploaded_file(../Admin/Action/upload/758617download (1).jpg): failed to open stream: No such file or directory in /home/legalfriend/public_html/Subadmin/Action/edit_message_action.php on line 26
+[06-Mar-2022 09:43:33 Asia/Dhaka] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpVDGlJm' to '../Admin/Action/upload/758617download (1).jpg' in /home/legalfriend/public_html/Subadmin/Action/edit_message_action.php on line 26
+[06-Mar-2022 09:44:32 Asia/Dhaka] PHP Warning:  move_uploaded_file(../Admin/Action/upload/105810download (1).jpg): failed to open stream: No such file or directory in /home/legalfriend/public_html/Subadmin/Action/edit_message_action.php on line 26
+[06-Mar-2022 09:44:32 Asia/Dhaka] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUWHnDq' to '../Admin/Action/upload/105810download (1).jpg' in /home/legalfriend/public_html/Subadmin/Action/edit_message_action.php on line 26
+[06-Mar-2022 09:47:32 Asia/Dhaka] PHP Warning:  move_uploaded_file(../Admin/Action/upload/108116WhatsApp Image 2021-06-10 at 3.40.51 AM.jpeg): failed to open stream: No such file or directory in /home/legalfriend/public_html/Subadmin/Action/message_action.php on line 12
+[06-Mar-2022 09:47:32 Asia/Dhaka] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpmjm2lI' to '../Admin/Action/upload/108116WhatsApp Image 2021-06-10 at 3.40.51 AM.jpeg' in /home/legalfriend/public_html/Subadmin/Action/message_action.php on line 12

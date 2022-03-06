@@ -161,7 +161,7 @@ $id = $_GET['id'];
                 </div>
                 <div class="more-articles-sidebar">
                     <div class="article-sidebar-title">
-                        অন্যান্য বার্তা
+                        সকল বার্তা
                     </div>
 
                     <div class="article-sidebar-contents">
@@ -178,7 +178,7 @@ $id = $_GET['id'];
                 $image = $row['image'];
             
             ?>
-                        <a href="articleDetail.php?id=<?php echo $id; ?>">
+                        <a href="messageDetail.php?id=<?php echo $id; ?>">
                             <div class="sidebar-contents">
                                 <div class="sidebar-image">
                                     <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />

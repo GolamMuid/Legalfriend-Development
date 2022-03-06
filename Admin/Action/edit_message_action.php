@@ -2,14 +2,7 @@
 
 include '../config.php';
 $genarate_image = rand(100, 1000000).$_FILES["message_image"]["name"];
-if (file_exists("upload/".$genarate_image)) {
 
-	// code...
-
-}
-else{
-	move_uploaded_file($_FILES['message_image']["tmp_name"], "upload/".$genarate_image);
-}
 $id = $_GET["id"];
 $message_date= $_POST['message_date'];
 $message_image = $genarate_image;
@@ -29,7 +22,8 @@ $message_topic = $_POST['topic'];
             mysqli_query($conn,$update);
         }
         
-        if($_FILES["message_image"]!=""){
+        if($_FILES["message_image"]["name"]!=""){
+            move_uploaded_file($_FILES['message_image']["tmp_name"], "upload/".$genarate_image);
             $update = "UPDATE messages SET image = '$message_image' WHERE id = $id;";
                 mysqli_query($conn,$update);
         }

@@ -33,7 +33,7 @@
                 <label for="click" class="menu-btn">
                     <i class="fas fa-bars"></i>
                 </label>
-                <ul>
+                <ul id="navlist">
                     <li><a class="active" href="index.php">HOME</a></li>
                     <li><a href="messages.php">MESSAGES</a></li>
                     <li><a href="articles.php">ARTICLES</a></li>
@@ -542,6 +542,10 @@
                     <img src="./images/Legaldiary.png" alt=""> <br>
                     <button> <i class="fas fa-download"></i> Download</button>
                 </div>
+                <div class="icon-each">
+                    <img src="./images/Legalfriend.png" alt=""> <br>
+                    <button> <i class="fas fa-download"></i> Download</button>
+                </div>
             </div>
         </div>
 
@@ -565,16 +569,7 @@
     <!-- Scrips  -->
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        loop: true,
-        autoplay: {
-            delay: 4000,
-            disableOnInteraction: false,
-        }
-    });
-    </script>
+    <script src="script.js"></script>
 
 </body>
 

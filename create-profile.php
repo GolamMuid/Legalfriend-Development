@@ -77,88 +77,64 @@
             </div>
 
             <div class="create-profile-form-container">
-                <form name="create-profile" class="create-profile" action="" method="post">
-                    <input class="profile-input" type="text" id="profile-first-name" name="first-name"
-                        placeholder="First Name">
-                    <input class="profile-input" type="text" id="profile-last-name" name="last-name"
-                        placeholder="Last Name">
+                <form name="create-profile" class="create-profile" action="create_profile_handler.php" method="post">
+                    <input class="profile-input" type="text" id="name" name="name" placeholder="Full Name">
+                    <input class="profile-input" type="text" id="profile-phone" name="phone"
+                        placeholder="Mobile Number">
 
                     <label for="date-of-birth">Date of Birth</label>
 
-                    <div class="grid-3">
-
-                        <input class="profile-input" type="text" id="profile-birth-date-day" name="birth-date-day"
-                            placeholder="Day">
-                        <input class="profile-input" type="text" id="profile-birth-date-month" name="birth-date-month"
-                            placeholder="Month">
-                        <input class="profile-input" type="text" id="profile-birth-date-year" name="birth-date-year"
-                            placeholder="Year">
-
-                    </div>
+                    <input class="profile-input" type="date" id="profile-birth-date" name="birth-date"
+                        placeholder="Day">
 
                     <label for="date-of-birth">Gender</label>
 
                     <div class="grid-3">
-                        <label class="select-button">Male
-                            <input type="radio" name="gender" class="gender radio-hide">
 
+                        <input type="radio" id="male" name="gender-options" value="male" class="gender">
+                        <label for="male" class="select-button">Male</label>
 
-                        </label>
-                        <label class="select-button">Female
-                            <input type="radio" name="gender" class="gender radio-hide">
+                        <input type="radio" id="female" name="gender-options" value="female" class="gender">
+                        <label for="female" class="select-button">Female</label>
 
-                        </label>
-                        <label class="select-button">Custom
-                            <input type="radio" name="gender" class="gender radio-hide">
-
-                        </label>
+                        <input type="radio" id="custom" name="gender-options" value="custom" class="gender">
+                        <label for="custom" class="select-button">Custom</label>
 
                     </div>
+
+
 
                     <label for="profession">Profession</label>
 
                     <div class="grid-2">
 
+                        <input type="radio" id="judge" name="profession-options" value="judge" class="profession">
+                        <label for="judge" class="select-profession">Judge</label>
 
-                        <label class="select-button">Judge
-                            <input type="radio" name="profession" class="profession radio-hide">
+                        <input type="radio" id="advocate" name="profession-options" value="advocate" class="profession">
+                        <label for="advocate" class="select-profession">Advocate</label>
 
+                        <input type="radio" id="barrister" name="profession-options" value="barrister"
+                            class="profession">
+                        <label for="barrister" class="select-profession">Barrister</label>
 
-                        </label>
-                        <label class="select-button">Advocate
-                            <input type="radio" name="profession" class="profession radio-hide">
+                        <input type="radio" id="app-lawyer" name="profession-options" value="app-lawyer"
+                            class="profession">
+                        <label for="app-lawyer" class="select-profession">App. lawyer</label>
 
-                        </label>
+                        <input type="radio" id="clark" name="profession-options" value="clark" class="profession">
+                        <label for="clark" class="select-profession">Clark</label>
 
-                        <label class="select-button">Barrister
-                            <input type="radio" name="profession" class="profession radio-hide">
-
-
-                        </label>
-                        <label class="select-button">App. Lawyer
-                            <input type="radio" name="profession" class="profession radio-hide">
-
-                        </label>
-
-                        <label class="select-button">Clark
-                            <input type="radio" name="profession" class="profession radio-hide">
+                        <input type="radio" id="court-stuff" name="profession-options" value="court-stuff"
+                            class="profession">
+                        <label for="court-stuff" class="select-profession">Court Stuff</label>
 
 
-                        </label>
-                        <label class="select-button">Court Stuff
-                            <input type="radio" name="profession" class="profession radio-hide">
+                        <input type="radio" id="student" name="profession-options" value="student" class="profession">
+                        <label for="student" class="select-profession">Student</label>
 
-                        </label>
-
-                        <label class="select-button">Student
-                            <input type="radio" name="profession" class="profession radio-hide">
-
-
-                        </label>
-                        <label class="select-button">Others
-                            <input type="radio" name="profession" class="profession radio-hide">
-
-                        </label>
+                        <input type="radio" id="others" name="profession-options" value="others" class="profession">
+                        <label for="others" class="select-profession">Others</label>
 
                     </div>
 
@@ -173,7 +149,7 @@
 
                         <div class="workplace-location">
                             <label for="profession">From</label>
-                            <input class="profile-input" type="text" id="profile-location" name="location"
+                            <input class="profile-input" type="text" id="profile-location" name="address"
                                 placeholder="City">
 
                         </div>
@@ -185,11 +161,9 @@
                         You need to login to a new device
                     </p>
                     <br>
-                    <label for="profile-picture">Upload Profile Picture</label>
-                    <input class="profile-input" type="file" placeholder="Upload Profile Picture">
 
-                    <input class="profile-input" type="password" id="new-password" name="new-password"
-                        placeholder="Make New Password" autocomplete="off">
+                    <input class="profile-input" type="password" id="password" name="password"
+                        placeholder="Make New Password">
 
                     <input class="create-new-profile center" type="submit" value="Create your profile">
 

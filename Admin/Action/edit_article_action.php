@@ -27,7 +27,7 @@ $message_body = $_POST['message_description'];
             mysqli_query($conn,$update);
         }
         
-        if($_FILES["message_image"]!=""){
+        if($_FILES["message_image"]["name"]!=""){
             $update = "UPDATE articles SET image = '$message_image' WHERE id = $id;";
                 mysqli_query($conn,$update);
         }

@@ -29,7 +29,7 @@
             $update = "UPDATE notifications SET name = '$p_name' WHERE id = $id;";
             mysqli_query($conn,$update);
         }
-        if($_FILES["logo"]!=""){
+        if($_FILES["logo"]["name"]!=""){
             $update = "UPDATE notifications SET image = '$site_logo' WHERE id = $id;";
                 mysqli_query($conn,$update);
         }

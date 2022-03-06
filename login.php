@@ -87,16 +87,16 @@
             </div>
 
             <div class="login-form-container">
-                <form name="login-form" class="login-form" action="">
-                    <input class="inputs" type="text" id="login-phone-number" name="phone-number"
+                <form name="login-form" class="login-form" action="login_handler.php">
+                    <input class="inputs" type="text" id="phone" name="phone"
                         placeholder="Phone Number">
                     <input class="inputs" type="password" id="login-password" name="password" placeholder="Password">
                     <input class="login-button" type="submit" value="Login">
                 </form>
 
-                <a href="">Forgot Password?</a>
+                <a href="/forgot-pass.php">Forgot Password?</a>
 
-                <button class="create-new-profile" onClick="document.location='registration.php';">Create New
+                <button class="create-new-profile" onClick="document.location='create-profile.php';">Create New
                     Profile</button>
 
             </div>

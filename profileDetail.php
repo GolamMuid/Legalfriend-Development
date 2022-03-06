@@ -14,6 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+<?php
+$id = $_GET['id'];
+
+?>
+
 <body>
     <section id="header">
 
@@ -75,18 +80,44 @@
     </section>
 
     <section class="profile-detail-body">
+          <?php
+    
+     include 'Admin/config.php';
+
+             $sql = "SELECT * FROM `users` WHERE id = $id";
+             $result=$conn->query($sql);
+            while($row = mysqli_fetch_assoc($result))
+            {
+            $id = $row['id'];
+            $photo = $row['photo'];  
+            $name = $row['name'];
+            $profession = $row['profession'];
+            $company = $row['company'];
+            $address = $row['address'];
+            $gender = $row['gender'];
+            $dob = $row['dob'];
+            $religion = $row['religion'];
+            $material_status = $row['material_status'];
+            $status = $row['status'];
+            $expire_date = $row['expire_date'];
+            $about_me = $row['about_me'];
+           
+            }
+            
+           
+    ?>
         <div class="profile-detail-container container">
             <div class="profile-image-name-container">
                 <div class="profile-image-container">
-                    <img src="./images/article.jpg" alt="">
+                    <img src="images/<?php echo $photo ?>" rel=" img" />
                 </div>
                 <div class="profile-name-container">
-                    Kamrul Hasan
+                    <?php echo $name; ?>
                 </div>
                 <div class="profile-occupation-address-container">
-                    Advocate
+                    <?php echo $profession; ?>
                     <br>
-                    Dhaka
+                    <?php echo $address; ?>
                 </div>
                 <div class="paid-unpaid-container">
                     <img src="./images/unpaid.png" alt="">
@@ -95,7 +126,7 @@
             <div class="profile-information-container">
                 <div class="profile-title-container">
                     <p> Personal Info </p>
-                    <span class="edit_button"> <a href="profileEdit.php"> edit </a> </span>
+                    <span class="edit_button"> <a href="profileEdit.php?id=<?php echo $id; ?>"> edit </a> </span>
                 </div>
 
                 <div class="profile-information-list">
@@ -114,14 +145,14 @@
 
                     <div class="profile-information-value">
 
-                        <p> : Kamrul Hasan </p>
-                        <p> : Advocate </p>
-                        <p> : Judge Court, Dhaka, Bangladesh </p>
-                        <p> : Chittagong </p>
-                        <p> : Male </p>
-                        <p> : 07.08.1995 </p>
-                        <p> : </p>
-                        <p> : </p>
+                        <p> :  <?php echo $name; ?> </p>
+                        <p> : <?php echo $profession; ?> </p>
+                        <p> : <?php echo $company; ?> </p>
+                        <p> : <?php echo $address; ?> </p>
+                        <p> : <?php echo $gender; ?> </p>
+                        <p> : <?php echo $dob; ?> </p>
+                        <p> : <?php echo $religion; ?></p>
+                        <p> : <?php echo $material_status; ?></p>
 
 
                     </div>
@@ -143,8 +174,8 @@
 
                     <div class="profile-information-value">
 
-                        <p> : Paid </p>
-                        <p> : 12.12.22 </p>
+                        <p> : <?php echo $status; ?> </p>
+                        <p> : <?php echo $expire_date; ?> </p>
 
                     </div>
 
@@ -156,9 +187,7 @@
                 </div>
 
                 <div class="profile-about-me">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos fugiat mollitia officia a
-                    assumenda molestiae quos, voluptate doloribus, maxime, consectetur enim vero cupiditate labore quo
-                    repellendus vitae nesciunt reiciendis distinctio!
+                    <?php echo $about_me; ?>
                 </div>
 
 

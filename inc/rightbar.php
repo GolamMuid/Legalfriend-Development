@@ -15,7 +15,7 @@
         <img src="./images/ainbidhi.png" alt="">
     </a>
     <div class="messenger-icon">
-        <a href="https://www.facebook.com/messages/t/108374944783321">
+        <a href="https://www.facebook.com/messages/t/108374944783321" target="_blank">
             <img src="./images/messenger.png" alt="">
         </a>
         <a href="">Live Chat</a>

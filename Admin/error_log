@@ -1818,3 +1818,71 @@
 [19-Jan-2022 11:06:20 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
 [19-Jan-2022 11:06:20 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
 [19-Jan-2022 11:06:20 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:11:17 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[02-Mar-2022 17:11:17 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[02-Mar-2022 17:11:17 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[02-Mar-2022 17:12:56 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[02-Mar-2022 17:12:56 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[02-Mar-2022 17:12:56 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[02-Mar-2022 17:13:02 Asia/Dhaka] PHP Notice:  Undefined index: id in /home/legalfriend/public_html/Admin/headline.php on line 7
+[02-Mar-2022 17:13:02 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/headline.php on line 94
+[02-Mar-2022 17:13:02 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/headline.php on line 94
+[02-Mar-2022 17:13:02 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/headline.php on line 94
+[02-Mar-2022 17:13:05 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:05 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:05 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:07 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/headline.php on line 94
+[02-Mar-2022 17:13:07 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/headline.php on line 94
+[02-Mar-2022 17:13:07 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/headline.php on line 94
+[02-Mar-2022 17:13:28 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:28 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:28 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:33 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:33 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:33 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:40 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:40 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:40 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:13:51 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/edit_notification.php on line 133
+[02-Mar-2022 17:13:51 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/edit_notification.php on line 133
+[02-Mar-2022 17:13:51 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/edit_notification.php on line 133
+[02-Mar-2022 17:14:05 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:14:05 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:14:05 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:14:46 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/edit_notification.php on line 133
+[02-Mar-2022 17:14:46 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/edit_notification.php on line 133
+[02-Mar-2022 17:14:46 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/edit_notification.php on line 133
+[02-Mar-2022 17:14:56 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:14:56 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[02-Mar-2022 17:14:56 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[06-Mar-2022 09:32:33 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:32:33 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:32:33 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:32:35 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:32:35 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:32:35 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:48:06 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:48:06 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:48:06 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:48:30 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:48:30 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:48:30 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 09:48:37 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/edit_message.php on line 156
+[06-Mar-2022 09:48:37 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/edit_message.php on line 156
+[06-Mar-2022 09:48:37 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/edit_message.php on line 156
+[06-Mar-2022 17:26:33 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 17:26:33 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 17:26:33 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 17:26:36 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 17:26:36 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 17:26:36 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/index.php on line 15
+[06-Mar-2022 17:26:44 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[06-Mar-2022 17:26:44 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[06-Mar-2022 17:26:44 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190
+[06-Mar-2022 17:26:46 Asia/Dhaka] PHP Notice:  Undefined index: id in /home/legalfriend/public_html/Admin/headline.php on line 7
+[06-Mar-2022 17:26:46 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/headline.php on line 94
+[06-Mar-2022 17:26:46 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/headline.php on line 94
+[06-Mar-2022 17:26:46 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/headline.php on line 94
+[06-Mar-2022 17:26:49 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[06-Mar-2022 17:26:49 Asia/Dhaka] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/legalfriend/public_html/Admin/notification.php on line 190
+[06-Mar-2022 17:26:49 Asia/Dhaka] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/legalfriend/public_html/Admin/notification.php on line 190

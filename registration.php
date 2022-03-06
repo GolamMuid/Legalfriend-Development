@@ -47,7 +47,7 @@
                     </li>
                     <li><a href="aboutus.php">ABOUTus</a></li>
                     <li>
-                        <button class="login" onClick="document.location='login.php';"> Login </button>
+                        <button class="login" onClick="document.location='create-profile.php';"> Login </button>
                     </li>
                 </ul>
             </nav>
@@ -91,10 +91,13 @@
 
             <div class="login-form-container">
                 <form name="registartion-form" class="login-form" method="POST" action="verification.php">
-                    <input class="inputs" type="text" id="registration-phone-number" name="phone-number"
-                        placeholder="Phone Number 01#########">
-                    <input class="create-new-profile" type="submit" value="Send OTP">
+                    <input class="inputs" type="text" id="number" name="uname" placeholder="Phone Number 01#########">
+                    <div id="recaptcha-container"></div>
+                    <button class="create-new-profile" type="button" onclick="phoneAuth();">Send Otp</button>
                 </form>
+
+
+
 
                 <p> Your mobile number will be your USER ID </p>
                 <p> It will be needed to login again </p>
@@ -107,6 +110,27 @@
 
 
     <!-- Registration Body Ends  -->
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+
+        apiKey: "AIzaSyAElAlezjuBZR__T2-m1QcD6FygKYNPFQE",
+        authDomain: "legal-friend.firebaseapp.com",
+        projectId: "legal-friend",
+        storageBucket: "legal-friend.appspot.com",
+        messagingSenderId: "1072150333848",
+        appId: "1:1072150333848:web:17e8b78b59160c9e8bc3ed",
+        measurementId: "G-LPE10SQB21"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+    <script src="firebase.js" type="text/javascript"></script>
 
 </body>
 

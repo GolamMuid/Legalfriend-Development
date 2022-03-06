@@ -128,14 +128,14 @@ $id = $_GET['id'];
                             <br>
                             <?php echo $newdate ?>
                         </div>
-                        <div class="article-share">
-                            <a href="">
-                                <img src="./images/fb.png" alt="">
-                            </a>
-                            <a href="">
-                                <img src="./images/copy.png" alt="">
-                            </a>
-                        </div>
+                        <!-- <div class="article-share">
+
+                            <img id="fb-share" src="./images/fb.png" alt="">
+
+
+                            <img src="./images/copy.png" alt="">
+
+                        </div> -->
                     </div>
                     <figure class="article-figure">
                         <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
@@ -204,9 +204,15 @@ $id = $_GET['id'];
 
 
 
-
         </div>
     </section>
+
+
+    <script>
+
+    </script>
+
+
 </body>
 
 <footer>

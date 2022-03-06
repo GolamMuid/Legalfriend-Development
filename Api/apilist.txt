@@ -1,0 +1,46 @@
+1. REGISTRATION API:
+Example Requests:
+http://legalfriendbd.com/Api/registerUser.php?name=shadin khan&email=shadin45@yahoo.com&phone=01707707727&password=123456&profession=Engineer&
+company=Glamworld IT&address=Dhaka&gender=male&dob=03-01-1999&religion=islam&material_status=married
+
+Successfull response:
+
+{
+    "status": "SUCCESS",
+    "message": "data saved successfully"
+}
+
+
+2. LOGIN API:
+
+
+Example Requests:
+
+
+http://legalfriendbd.com/Api/login.php?phone=01972240525&password=kam1234@
+
+
+Successfull response:
+{
+    "status": "success",
+    "user": {
+        "id": "2",
+        "name": "kamrul islam",
+        "email": "kamrul23@yahoo.com",
+        "phone": "01972240525",
+        "password": "kam1234@",
+        "profession": "",
+        "company": "",
+        "address": "",
+        "gender": "",
+        "dob": "",
+        "religion": "",
+        "material_status": "",
+        "status": "0",
+        "expire_date": "0000-00-00",
+        "uploaded_at": "2022-02-11 07:23:57",
+        "updated_at": "0000-00-00 00:00:00"
+    },
+    "error": "200",
+    "message": "login success"
+}

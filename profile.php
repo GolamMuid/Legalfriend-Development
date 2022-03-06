@@ -13,6 +13,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<?php
+$id = $_GET['id'];
+
+?>
 
 <body>
     <section id="header" style="height:42px;">
@@ -78,34 +82,58 @@
     </div>
 
     <!-- Profile Body Starts  -->
+    
+
 
     <section class="Login-body">
+         
         <div class="login-body-container container">
+                <?php
+    
+     include 'Admin/config.php';
+
+             $sql = "SELECT * FROM `users` WHERE id = $id";
+             $result=$conn->query($sql);
+            while($row = mysqli_fetch_assoc($result))
+            {
+            $id = $row['id'];
+            $photo = $row['photo'];
+            $name = $row['name'];
+            $profession = $row['profession'];
+            $address = $row['address'];
+           
+            }
+            
+           
+    ?>
 
             <div class="login-image-container">
                 <img src="./images/login.png" alt="LegalFriend">
             </div>
 
             <div class="profile-options-container">
+                
                 <div class="profile-image-name-container">
                     <div class="profile-image-container">
-                        <img src="./images/article.jpg" alt="">
+                        <img src="images/<?php echo $photo ?>" rel=" img" />
                     </div>
                     <div class="profile-name-container">
-                        Kamrul Hasan
+                        <?php echo $name; ?>
                     </div>
                     <div class="profile-occupation-address-container">
-                        Advocate
+                        <?php echo $profession; ?>
                         <br>
-                        Dhaka
+                        <?php echo $address; ?>
                     </div>
                 </div>
             </div>
 
             <div class="profile-buttons-container">
-                <button class="profile-buttons profile"> Profile </button>
-                <button class="profile-buttons password"> Password </button>
-                <button class="profile-buttons logout"> Logout </button>
+                <button class="profile-buttons profile" onClick="document.location='profileDetail.php?id=<?php echo $id; ?>';"> Profile
+                </button>
+                <button class="profile-buttons password" onClick="document.location='newPassword.php?id=<?php echo $id; ?>';"> Password
+                </button>
+                <button class="profile-buttons logout" onClick="document.location='logout.php';"> Logout </button>
             </div>
 
         </div>
