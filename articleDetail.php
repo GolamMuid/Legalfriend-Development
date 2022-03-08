@@ -29,7 +29,7 @@ $id = $_GET['id'];
 
                 <div class="logo">
                     <a href="index.php">
-                        <img src="./images/title.png" alt="">
+                        <img src="./images/title.svg" alt="">
                     </a>
                 </div>
                 <input type="checkbox" id="click">
@@ -128,14 +128,14 @@ $id = $_GET['id'];
                             <br>
                             <?php echo $newdate ?>
                         </div>
-                        <!-- <div class="article-share">
+                        <div class="article-share">
 
                             <img id="fb-share" src="./images/fb.png" alt="">
 
 
-                            <img src="./images/copy.png" alt="">
+                            <img id="url-copy" src="./images/copy.png" alt="">
 
-                        </div> -->
+                        </div>
                     </div>
                     <figure class="article-figure">
                         <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
@@ -208,8 +208,22 @@ $id = $_GET['id'];
     </section>
 
 
-    <script>
 
+
+    <script>
+    // url copy
+
+    document.querySelector("#url-copy").addEventListener("click", copyToClipboard);
+
+    function copyToClipboard(text) {
+        var inputc = document.body.appendChild(document.createElement("input"));
+        inputc.value = window.location.href;
+        inputc.focus();
+        inputc.select();
+        document.execCommand("copy");
+        inputc.parentNode.removeChild(inputc);
+        alert("URL Copied.");
+    }
     </script>
 
 

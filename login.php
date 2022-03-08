@@ -88,8 +88,7 @@
 
             <div class="login-form-container">
                 <form name="login-form" class="login-form" action="login_handler.php">
-                    <input class="inputs" type="text" id="phone" name="phone"
-                        placeholder="Phone Number">
+                    <input class="inputs" type="text" id="phone" name="phone" placeholder="Phone Number">
                     <input class="inputs" type="password" id="login-password" name="password" placeholder="Password">
                     <input class="login-button" type="submit" value="Login">
                 </form>

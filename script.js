@@ -9,16 +9,21 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-const facebookBtn = document.querySelector("#fb-share");
-let postUrl = encodeURI(document.location.href);
+var swiper = new Swiper(".vidSwiper", {
+  slidesPerView: 1,
+  loop: true,
+  // autoplay: {
+  //   delay: 4000,
+  //   disableOnInteraction: false,
+  // },
+});
 
-console.log(postUrl);
+// script for messenger icon
 
-facebookBtn.addEventListener("click", fbShare);
+var cross = document.querySelector(".cross-button");
+var messenger = document.querySelector(".messenger-mobile-container");
+cross.addEventListener("click", close);
 
-function fbShare() {
-  facebookBtn.setAttribute(
-    "href",
-    `https://www.facebook.com/sharer.php?u=${postUrl}`
-  );
+function close() {
+  messenger.style.display = "none";
 }

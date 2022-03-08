@@ -29,7 +29,7 @@ $id = $_GET['id'];
 
                 <div class="logo">
                     <a href="index.php">
-                        <img src="./images/title.png" alt="">
+                        <img src="./images/title.svg" alt="">
                     </a>
                 </div>
                 <input type="checkbox" id="click">

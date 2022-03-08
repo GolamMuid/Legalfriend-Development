@@ -57,7 +57,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
                 <div class="logo">
                     <a href="index.php">
-                        <img src="./images/title.png" alt="">
+                        <img src="./images/title.svg" alt="">
                     </a>
                 </div>
                 <input type="checkbox" id="click">
@@ -125,35 +125,37 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <!--    <input class="inputs" type="text" id="number" name="uname" placeholder="Email">-->
                 <!--    <button class="create-new-profile" type="submit">Send Mail</button>-->
                 <!--</form>-->
-                
-                
-                
+
+
+
                 <form name="registartion-form" class="login-form" role="form" method="POST">
-            <div class="form-group">
-              <label>Please enter your email to recover your password</label><br><br>
-              <input  class="inputs" id="email" name="email" value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>" placeholder="Email" >
-            </div>
-            
-            <?php if (isset($error)) {
+                    <div class="form-group">
+                        <label>Please enter your email to recover your password</label><br><br>
+                        <input class="inputs" id="email" name="email"
+                            value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>" placeholder="Email">
+                    </div>
+
+                    <?php if (isset($error)) {
                       echo"<div class='alert alert-danger' role='alert'>
                       <span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span>
                       <span class='sr-only'>Error:</span>".$error."</div>";
                  } ?>
-            <?php if ($message<>"") {
+                    <?php if ($message<>"") {
                       echo"<div class='alert alert-danger' role='alert'>
                       <span class='glyphicon glyphicon-exclamation-sign' aria-hidden='true'></span>
                       <span class='sr-only'>Error:</span>".$message."</div>";
                 } ?>
-            <?php if (isset($message_success)) {
+                    <?php if (isset($message_success)) {
                       echo"<div class='alert alert-success' role='alert'>
                       <span class='glyphicon glyphicon-ok' aria-hidden='true'></span>
                       <span class='sr-only'>Error:</span>".$message_success."</div>";
                   } ?>
-              <button type="submit" class="create-new-profile" name="submit" style="display: block; width: 100%;">Send Email</button>
-              <br><br>
-              <center><a href="login.php">Back to Login</a></center>
-              <br>
-          </form>
+                    <button type="submit" class="create-new-profile" name="submit"
+                        style="display: block; width: 100%;">Send Email</button>
+                    <br><br>
+                    <center><a href="login.php">Back to Login</a></center>
+                    <br>
+                </form>
 
 
 

@@ -30,7 +30,7 @@ $id = $_GET['id'];
 
                 <div class="logo">
                     <a href="index.php">
-                        <img src="./images/title.png" alt="">
+                        <img src="./images/title.svg" alt="">
                     </a>
                 </div>
                 <input type="checkbox" id="click">
@@ -82,13 +82,13 @@ $id = $_GET['id'];
     </div>
 
     <!-- Profile Body Starts  -->
-    
+
 
 
     <section class="Login-body">
-         
+
         <div class="login-body-container container">
-                <?php
+            <?php
     
      include 'Admin/config.php';
 
@@ -112,7 +112,7 @@ $id = $_GET['id'];
             </div>
 
             <div class="profile-options-container">
-                
+
                 <div class="profile-image-name-container">
                     <div class="profile-image-container">
                         <img src="images/<?php echo $photo ?>" rel=" img" />
@@ -129,9 +129,11 @@ $id = $_GET['id'];
             </div>
 
             <div class="profile-buttons-container">
-                <button class="profile-buttons profile" onClick="document.location='profileDetail.php?id=<?php echo $id; ?>';"> Profile
+                <button class="profile-buttons profile"
+                    onClick="document.location='profileDetail.php?id=<?php echo $id; ?>';"> Profile
                 </button>
-                <button class="profile-buttons password" onClick="document.location='newPassword.php?id=<?php echo $id; ?>';"> Password
+                <button class="profile-buttons password"
+                    onClick="document.location='newPassword.php?id=<?php echo $id; ?>';"> Password
                 </button>
                 <button class="profile-buttons logout" onClick="document.location='logout.php';"> Logout </button>
             </div>

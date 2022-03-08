@@ -30,7 +30,7 @@ $id = $_GET['id'];
 
                 <div class="logo">
                     <a href="index.php">
-                        <img src="./images/title.png" alt="">
+                        <img src="./images/title.svg" alt="">
                     </a>
                 </div>
                 <input type="checkbox" id="click">
@@ -80,7 +80,7 @@ $id = $_GET['id'];
     </section>
 
     <section class="profile-detail-body">
-          <?php
+        <?php
     
      include 'Admin/config.php';
 
@@ -145,7 +145,7 @@ $id = $_GET['id'];
 
                     <div class="profile-information-value">
 
-                        <p> :  <?php echo $name; ?> </p>
+                        <p> : <?php echo $name; ?> </p>
                         <p> : <?php echo $profession; ?> </p>
                         <p> : <?php echo $company; ?> </p>
                         <p> : <?php echo $address; ?> </p>

@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body onload="hide()">
     <section id="header">
 
         <div class="header-container">
@@ -29,7 +29,7 @@
                         <img src="./images/title.png" alt="">
                     </a>
                 </div>
-                <input type="checkbox" id="click">
+                <input type="checkbox" id="click" autocomplete="off">
                 <label for="click" class="menu-btn">
                     <i class="fas fa-bars"></i>
                 </label>
@@ -146,7 +146,7 @@
 
                     <?php
             include 'Admin/config.php';
-            $sql = "SELECT * FROM `advertisements` ORDER BY ID DESC LIMIT 2";
+            $sql = "SELECT * FROM `advertisements` ORDER BY ID LIMIT 2";
 
             $result = $conn -> query($sql);
 
@@ -155,7 +155,7 @@
                 $image = $row['image'];
                 $advertise_link = $row['image_link'];
            
-
+            }
             ?>
 
 
@@ -170,17 +170,43 @@
                             </video>
 
                         </div>
-                        <div class="advertise-text">
-                            <?php echo $advertise_link ?>
 
-                        </div>
 
 
                     </div>
 
+
+
+
                     <?php
+            include 'Admin/config.php';
+            $sql = "SELECT * FROM `advertisements` ORDER BY ID LIMIT 1";
+
+            $result = $conn -> query($sql);
+
+            while ($row = mysqli_fetch_assoc($result))
+            {
+                $image = $row['image'];
+                $advertise_link = $row['image_link'];
+           
             }
             ?>
+
+
+                    <div class="advertises">
+                        <div class="advertise-image">
+
+
+                            <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
+
+                        </div>
+
+
+
+                    </div>
+
+
+
 
 
                 </div>
@@ -332,7 +358,7 @@
             VIDEO
         </div>
 
-        <div class="swiper mySwiper">
+        <div class="swiper vidSwiper">
             <div class="swiper-wrapper">
 
                 <?php
@@ -563,13 +589,31 @@
 
     </footer>
 
+    <div class="messenger-mobile-container">
+        <div class="cross-button">
+            x
+        </div>
+        <div class="messenger-logo">
+            <a href="https://www.facebook.com/messages/t/108374944783321" target="_blank">
+                <img src="./images/messenger.png" alt="">
+            </a>
+        </div>
+    </div>
+
     <!-- Footer ends  -->
 
 
-    <!-- Scrips  -->
+    <!-- Scritps  -->
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+    function hide() {
+        document.querySelector("#click").checked = false;
+    }
+    </script>
+
 
 </body>
 

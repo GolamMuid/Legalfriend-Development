@@ -29,7 +29,7 @@ $id = $_GET['id'];
 
                 <div class="logo">
                     <a href="index.php">
-                        <img src="./images/title.png" alt="">
+                        <img src="./images/title.svg" alt="">
                     </a>
                 </div>
                 <input type="checkbox" id="click">
@@ -123,13 +123,37 @@ $id = $_GET['id'];
                             <br>
                             <?php echo $newdate ?>
                         </div>
+
+
+
+
+
+
+
                         <div class="article-share">
-                            <a href="">
-                                <img src="./images/fb.png" alt="">
-                            </a>
-                            <a href="">
-                                <img src="./images/copy.png" alt="">
-                            </a>
+
+                            <?php  
+                     if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')   
+                      $url = "https://";   
+                      else  
+                      $url = "http://";   
+                      // Append the host(domain name, ip) to the URL.   
+                     $url.= $_SERVER['HTTP_HOST'];   
+    
+                         // Append the requested resource location to the URL   
+                        $url.= $_SERVER['REQUEST_URI'];    
+      
+                    // echo $url;  
+                         ?>
+
+                            <iframe
+                                src="https://www.facebook.com/plugins/share_button.php?href=<?php  echo $url ?>&layout=button&size=small&width=67&height=20&appId"
+                                width="67" height="20" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0" allowfullscreen="true"
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
+
+                            <img id="url-copy" src="./images/copy.png" alt="">
                         </div>
                     </div>
                     <figure class="article-figure">
@@ -202,6 +226,24 @@ $id = $_GET['id'];
 
         </div>
     </section>
+
+    <script>
+    // url copy
+
+    document.querySelector("#url-copy").addEventListener("click", copyToClipboard);
+
+    function copyToClipboard(text) {
+        var inputc = document.body.appendChild(document.createElement("input"));
+        inputc.value = window.location.href;
+        inputc.focus();
+        inputc.select();
+        document.execCommand("copy");
+        inputc.parentNode.removeChild(inputc);
+        alert("URL Copied.");
+    }
+    </script>
+
+
 </body>
 
 <footer>

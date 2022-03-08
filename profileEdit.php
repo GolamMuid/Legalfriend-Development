@@ -3,7 +3,7 @@
 include_once 'Admin/config.php';
 
     $id = $_GET['id'];
-?>  
+?>
 
 
 
@@ -34,7 +34,7 @@ include_once 'Admin/config.php';
 
                 <div class="logo">
                     <a href="index.php">
-                        <img src="./images/title.png" alt="">
+                        <img src="./images/title.svg" alt="">
                     </a>
                 </div>
                 <input type="checkbox" id="click">
@@ -84,7 +84,7 @@ include_once 'Admin/config.php';
     </section>
 
     <section class="profile-edit-body">
-        
+
         <?php
     
      include 'Admin/config.php';
@@ -119,8 +119,9 @@ include_once 'Admin/config.php';
             </div>
 
             <div class="profile-information-container container">
-                
-                     <form class="form-horizontal form-label-left" enctype="multipart/form-data" action="editProfileDetail.php?id=<?php echo $id; ?>" method="post">
+
+                <form class="form-horizontal form-label-left" enctype="multipart/form-data"
+                    action="editProfileDetail.php?id=<?php echo $id; ?>" method="post">
                     <div class="profile-title-container">
                         <p> Personal Info </p>
 
@@ -137,7 +138,7 @@ include_once 'Admin/config.php';
                             <p> Birth of Date </p>
                             <p> Religion </p>
                             <p> Marital Status </p>
-                          
+
                             <p> Upload Profile Picture </p>
 
                         </div>
@@ -145,23 +146,31 @@ include_once 'Admin/config.php';
                         <div class="profile-information-value">
 
                             <p> :
-                                <input class="profile-edit" type="text" name="name" id="name" value= "<?php echo $name; ?>" >
+                                <input class="profile-edit" type="text" name="name" id="name"
+                                    value="<?php echo $name; ?>">
                             </p>
-                            <p> : <input class="profile-edit" type="text" name="profession" id="profession" value= "<?php echo $profession; ?>" >
+                            <p> : <input class="profile-edit" type="text" name="profession" id="profession"
+                                    value="<?php echo $profession; ?>">
                             </p>
-                            <p> : <input class="profile-edit" type="text" name="company" id="company" value= "<?php echo $company; ?>" >
+                            <p> : <input class="profile-edit" type="text" name="company" id="company"
+                                    value="<?php echo $company; ?>">
                             </p>
-                            <p> : <input class="profile-edit" type="text" name="address" id="address" value= "<?php echo $address; ?>">
+                            <p> : <input class="profile-edit" type="text" name="address" id="address"
+                                    value="<?php echo $address; ?>">
                             </p>
-                            <p> : <input class="profile-edit" type="text" name="gender" id="gender" value= "<?php echo $gender; ?>">
+                            <p> : <input class="profile-edit" type="text" name="gender" id="gender"
+                                    value="<?php echo $gender; ?>">
                             </p>
-                            <p> : <input class="profile-edit" type="date" name="dob" id="dob" value= "<?php echo $dob; ?>">
+                            <p> : <input class="profile-edit" type="date" name="dob" id="dob"
+                                    value="<?php echo $dob; ?>">
                             </p>
-                            <p> : <input class="profile-edit" type="text" name="religion" id="religion" value= "<?php echo $religion; ?>">
+                            <p> : <input class="profile-edit" type="text" name="religion" id="religion"
+                                    value="<?php echo $religion; ?>">
                             </p>
-                            <p> : <input class="profile-edit" type="text" name="material_status" id="material_status" value= "<?php echo $material_status; ?>">
+                            <p> : <input class="profile-edit" type="text" name="material_status" id="material_status"
+                                    value="<?php echo $material_status; ?>">
                             </p>
-                           <!--  <p>
+                            <!--  <p>
                 <div class="profile-image-name-container">
                 <div class="profile-image-container">
                     <img src="images/<?php echo $photo ?>" rel=" img" />
@@ -170,7 +179,8 @@ include_once 'Admin/config.php';
 
 
                             <p>
-                               <input class="profile-edit" name="profile_image" type="file" placeholder="Upload Profile Picture" >
+                                <input class="profile-edit" name="profile_image" type="file"
+                                    placeholder="Upload Profile Picture">
                             </p>
 
 
@@ -187,12 +197,13 @@ include_once 'Admin/config.php';
                     </div>
 
                     <div class="profile-about-me">
-                        <input class="profile-edit-about-me" type="textarea" name="about_me" id="about_me" value= "<?php echo $about_me; ?>">
+                        <input class="profile-edit-about-me" type="textarea" name="about_me" id="about_me"
+                            value="<?php echo $about_me; ?>">
                     </div>
 
 
-                       
-                       <button type="submit" class="create-new-profile">Submit</button>
+
+                    <button type="submit" class="create-new-profile">Submit</button>
 
                 </form>
             </div>
