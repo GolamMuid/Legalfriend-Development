@@ -74,8 +74,13 @@
     <div class="footer-bottom">
         <p>legalfriendbd.com &copy; 2022. All Rights Reserved</p>
         <span class="privacy-policy">
-            <a href="" target="_blank">
-                Privacy Policy | Disclaimer
+            <a href="privacy-policy.html" target="_blank">
+                Privacy Policy |
+            </a>
+        </span>
+        <span class="privacy-policy">
+            <a href="disclaimer.html" target="_blank">
+                Disclaimer
             </a>
         </span>
     </div>

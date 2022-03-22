@@ -1406,6 +1406,21 @@ footer {
 
 /* Profile Edit Ends  */
 
+/* Disclaimer - privacy policy starts  */
+
+.pdf {
+  width: 100%;
+}
+
+.pdf embed {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+}
+
+/* Disclaimer - privacy policy ends  */
+
 /* Mobile Responsive Design  */
 
 @media only screen and (max-width: 940px) {
