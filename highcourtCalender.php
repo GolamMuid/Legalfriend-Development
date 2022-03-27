@@ -60,11 +60,11 @@
             <div class="headine-rightbar">
 
                 <?php
-            include 'inc/headline.php'
-            ?>
+                include 'inc/headline.php'
+                ?>
                 <?php
-            include 'inc/rightbar.php'
-            ?>
+                include 'inc/rightbar.php'
+                ?>
 
 
             </div>
@@ -75,8 +75,8 @@
 
     <div class="responsive-logo">
         <?php
-    include 'inc/responsivelogo.php'
-    ?>
+        include 'inc/responsivelogo.php'
+        ?>
 
     </div>
 
@@ -89,23 +89,25 @@
             <div class="calender-page-body">
                 <div class="calender-img-body">
                     <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `calenders` ORDER BY ID LIMIT 2";
+                    include 'Admin/config.php';
+                    $sql = "SELECT * FROM `calenders` ORDER BY ID LIMIT 2";
 
-            $result = $conn -> query($sql);
+                    $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            {
-                $image = $row['image'];
-                $title = $row['image_link'];
-           
-            }
-            ?>
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        $image = $row['image'];
+                        $title = $row['image_link'];
+                    }
+                    ?>
                     <div class="calender-image">
                         <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                     </div>
                     <div class="calender-title">
                         <p> <?php echo $title ?> </p>
+                    </div>
+                    <div class="calender-buttons">
+                        <button id="zoom-in"> + </button>
+                        <button id="zoom-out"> - </button>
                     </div>
                 </div>
 
@@ -117,10 +119,11 @@
     <footer>
 
         <?php
-    include 'inc/footer.php'
-    ?>
+        include 'inc/footer.php'
+        ?>
 
     </footer>
+    <script src="zoom.js"></script>
 </body>
 
 </html>

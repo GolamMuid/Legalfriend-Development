@@ -31,7 +31,7 @@
                 </div>
                 <input type="checkbox" id="click" autocomplete="off">
                 <label for="click" class="menu-btn">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars" id="hamburger"></i>
                 </label>
                 <ul id="navlist">
                     <li><a class="active" href="index.php">HOME</a></li>
@@ -60,11 +60,11 @@
 
             <div class="headine-rightbar">
 
-                <?php 
+                <?php
                 include 'inc/headline.php';
                 ?>
 
-                <?php 
+                <?php
                 include 'inc/rightbar.php';
                 ?>
 
@@ -78,7 +78,7 @@
 
 
     <div class="responsive-logo">
-        <?php 
+        <?php
         include 'inc/responsivelogo.php'
         ?>
 
@@ -94,21 +94,20 @@
                     </div>
 
                     <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `notifications` ORDER BY ID DESC LIMIT 3";
+                    include 'Admin/config.php';
+                    $sql = "SELECT * FROM `notifications` ORDER BY ID DESC LIMIT 3";
 
-            $result = $conn -> query($sql);
+                    $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            { 
+                    while ($row = mysqli_fetch_assoc($result)) {
 
-                $id = $row['id'];
-                $date = $row['notification_date'];
-                $date1 = date('d', strtotime($date));
-                $date2 = date('M y', strtotime($date));
-                $headline = $row['headline'];
-            
-            ?>
+                        $id = $row['id'];
+                        $date = $row['notification_date'];
+                        $date1 = date('d', strtotime($date));
+                        $date2 = date('M y', strtotime($date));
+                        $headline = $row['headline'];
+
+                    ?>
 
 
 
@@ -130,8 +129,8 @@
                     </div>
 
                     <?php
-            }
-            ?>
+                    }
+                    ?>
 
 
                     <div class="section-title right">
@@ -145,18 +144,16 @@
                 <div class="advertise-container">
 
                     <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `advertisements` ORDER BY ID LIMIT 2";
+                    include 'Admin/config.php';
+                    $sql = "SELECT * FROM `advertisements` ORDER BY ID LIMIT 2";
 
-            $result = $conn -> query($sql);
+                    $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            {
-                $image = $row['image'];
-                $advertise_link = $row['image_link'];
-           
-            }
-            ?>
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        $image = $row['image'];
+                        $advertise_link = $row['image_link'];
+                    }
+                    ?>
 
 
 
@@ -179,18 +176,16 @@
 
 
                     <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `advertisements` ORDER BY ID LIMIT 1";
+                    include 'Admin/config.php';
+                    $sql = "SELECT * FROM `advertisements` ORDER BY ID LIMIT 1";
 
-            $result = $conn -> query($sql);
+                    $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            {
-                $image = $row['image'];
-                $advertise_link = $row['image_link'];
-           
-            }
-            ?>
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        $image = $row['image'];
+                        $advertise_link = $row['image_link'];
+                    }
+                    ?>
 
 
                     <div class="advertises">
@@ -235,16 +230,15 @@
             include 'Admin/config.php';
             $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 3";
 
-            $result = $conn -> query($sql);
+            $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            { 
+            while ($row = mysqli_fetch_assoc($result)) {
                 $id = $row['id'];
                 $headline = $row['headline'];
                 $date = $row['message_date'];
-                $newdate = date('d M y',strtotime($date));
+                $newdate = date('d M y', strtotime($date));
                 $image = $row['image']
-            
+
             ?>
 
 
@@ -275,20 +269,19 @@
             <div class="swiper-wrapper">
 
                 <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 3";
+                include 'Admin/config.php';
+                $sql = "SELECT * FROM `articles` ORDER BY ID DESC LIMIT 3";
 
-            $result = $conn -> query($sql);
+                $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            { 
-                $id = $row['id'];
-                $headline = $row['headline'];
-                $date = $row['message_date'];
-                $newdate = date('d M y',strtotime($date));
-                $image = $row['image']
-            
-            ?>
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $id = $row['id'];
+                    $headline = $row['headline'];
+                    $date = $row['message_date'];
+                    $newdate = date('d M y', strtotime($date));
+                    $image = $row['image']
+
+                ?>
 
 
                 <div class="swiper-slide">
@@ -304,8 +297,8 @@
                 </div>
 
                 <?php
-            }
-            ?>
+                }
+                ?>
 
             </div>
         </div>
@@ -328,21 +321,20 @@
             include 'Admin/config.php';
             $sql = "SELECT * FROM `videos` ORDER BY ID DESC LIMIT 3";
 
-            $result = $conn -> query($sql);
+            $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            { 
-               
+            while ($row = mysqli_fetch_assoc($result)) {
+
                 $video = $row['image_link'];
                 $title = $row['headline'];
-            
+
             ?>
             <div class="home-video">
-                <iframe src="<?php echo $video ;?>" title="YouTube video player" frameborder="0"
+                <iframe src="<?php echo $video; ?>" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
-                <p><a href=""> <?php echo $title ;?> </a></p>
+                <p><a href=""> <?php echo $title; ?> </a></p>
             </div>
 
             <?php
@@ -362,33 +354,32 @@
             <div class="swiper-wrapper">
 
                 <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `videos` ORDER BY ID DESC LIMIT 3";
+                include 'Admin/config.php';
+                $sql = "SELECT * FROM `videos` ORDER BY ID DESC LIMIT 3";
 
-            $result = $conn -> query($sql);
+                $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            { 
-               
-                $video = $row['image_link'];
-                $title = $row['headline'];
-            
-            ?>
+                while ($row = mysqli_fetch_assoc($result)) {
+
+                    $video = $row['image_link'];
+                    $title = $row['headline'];
+
+                ?>
 
 
                 <div class="swiper-slide">
                     <div class="home-video">
-                        <iframe src="<?php echo $video ;?>" title="YouTube video player" frameborder="0"
+                        <iframe src="<?php echo $video; ?>" title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
                         </iframe>
-                        <p><a href=""> <?php echo $title ;?> </a></p>
+                        <p><a href=""> <?php echo $title; ?> </a></p>
                     </div>
                 </div>
 
                 <?php
-            }
-            ?>
+                }
+                ?>
 
 
             </div>
@@ -415,20 +406,19 @@
             include 'Admin/config.php';
             $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 3";
 
-            $result = $conn -> query($sql);
+            $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            { 
+            while ($row = mysqli_fetch_assoc($result)) {
                 $id = $row['id'];
                 $date = $row['message_date'];
-                $newdate = date('d M y',strtotime($date));
+                $newdate = date('d M y', strtotime($date));
                 $image = $row['image'];
                 $name = $row['name'];
                 $designation = $row['designation'];
                 $address = $row['address'];
                 $address = $row['address'];
-                $headline = $row['headline']; 
-            
+                $headline = $row['headline'];
+
             ?>
 
             <div class="home-message">
@@ -462,8 +452,8 @@
             </div>
 
             <?php
-                }
-                ?>
+            }
+            ?>
 
 
         </div>
@@ -480,24 +470,23 @@
             <div class="swiper-wrapper">
 
                 <?php
-            include 'Admin/config.php';
-            $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 3";
+                include 'Admin/config.php';
+                $sql = "SELECT * FROM `messages` ORDER BY ID DESC LIMIT 3";
 
-            $result = $conn -> query($sql);
+                $result = $conn->query($sql);
 
-            while ($row = mysqli_fetch_assoc($result))
-            { 
-                $id = $row['id'];
-                $date = $row['message_date'];
-                $newdate = date('d M y',strtotime($date));
-                $image = $row['image'];
-                $name = $row['name'];
-                $designation = $row['designation'];
-                $address = $row['address'];
-                $address = $row['address'];
-                $headline = $row['headline']; 
-            
-            ?>
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $id = $row['id'];
+                    $date = $row['message_date'];
+                    $newdate = date('d M y', strtotime($date));
+                    $image = $row['image'];
+                    $name = $row['name'];
+                    $designation = $row['designation'];
+                    $address = $row['address'];
+                    $address = $row['address'];
+                    $headline = $row['headline'];
+
+                ?>
 
 
                 <div class="swiper-slide">
@@ -533,8 +522,8 @@
                 </div>
 
                 <?php
-            }
-            ?>
+                }
+                ?>
 
 
 
@@ -607,12 +596,6 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-
-    <script>
-    function hide() {
-        document.querySelector("#click").checked = false;
-    }
-    </script>
 
 
 </body>
