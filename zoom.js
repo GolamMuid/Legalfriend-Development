@@ -18,3 +18,11 @@ function zoomOut() {
   calenderImage.style.height = calenderHeight + "px";
   calenderImage.style.width = calenderWidth + "px";
 }
+
+var zoomCheck = document.querySelector("#zoom-check");
+
+calenderImage.addEventListener("click", imageZoom);
+
+function imageZoom() {
+  calenderImage.classList.toggle("transform");
+}

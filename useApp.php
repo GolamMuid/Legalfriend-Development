@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>LegalFriend - National Calender</title>
+    <title>LegalFriend - Calender</title>
     <link rel="icon" href="images/Legalfriend.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -37,7 +37,7 @@
                     <li><a href="messages.php">MESSAGES</a></li>
                     <li><a href="articles.php">ARTICLES</a></li>
                     <li><a href="notification.php">NOTIFICATION</a></li>
-                    <li class="calender"> <a class="active" href="calender.php"> CALENDER
+                    <li class="calender"> <a href="calender.php"> CALENDER
                             <ul class="dropdown">
                                 <li> <a href="nationalCalender.php"> জাতীয় ক্যালেন্ডার </a></li>
                                 <li> <a href="highcourtCalender.php"> হাইকোর্ট ক্যালেন্ডার </a></li>
@@ -73,43 +73,27 @@
 
 
     <div class="responsive-logo">
-        <?php
-        include 'inc/responsivelogo.php'
-        ?>
+
+        <div class="responsive-logo">
+            <?php
+            include 'inc/responsivelogo.php'
+            ?>
+
+
+        </div>
+
 
     </div>
 
+
+
     <section class="page-body">
         <div class="page-container">
-            <div class="page-title-container">
-                CALENDER
-            </div>
 
-            <div class="calender-page-body">
-                <div class="calender-img-body">
-                    <?php
-                    include 'Admin/config.php';
-                    $sql = "SELECT * FROM `calenders` ORDER BY ID LIMIT 1";
 
-                    $result = $conn->query($sql);
+            <div class="no-service-body">
+                This action cannot be done using the website. Please use LegalFriend app.
 
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        $image = $row['image'];
-                        $title = $row['image_link'];
-                    }
-                    ?>
-                    <div class="calender-image">
-                        <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
-                    </div>
-                    <div class="calender-title">
-                        <p> <?php echo $title ?> </p>
-                    </div>
-                    <div class="calender-buttons">
-                        <button id="zoom-in"> + </button>
-                        <button id="zoom-out"> - </button>
-                        <input type="checkbox" name="" id="zoom-check">
-                    </div>
-                </div>
 
             </div>
 
@@ -117,12 +101,12 @@
         </div>
     </section>
     <footer>
+
         <?php
         include 'inc/footer.php'
         ?>
-    </footer>
-    <script src="zoom.js"></script>
-</body>
 
+    </footer>
+</body>
 
 </html>
