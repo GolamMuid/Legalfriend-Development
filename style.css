@@ -971,6 +971,10 @@ footer {
   font-size: 20px;
 }
 
+.about-us-description pre {
+  white-space: pre-wrap;
+}
+
 .about-us-image {
   display: flex;
   justify-content: center;

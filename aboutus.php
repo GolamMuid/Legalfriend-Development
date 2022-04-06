@@ -59,10 +59,10 @@
 
             <div class="headine-rightbar">
 
-                <?php 
+                <?php
                 include 'inc/headline.php'
                 ?>
-                <?php 
+                <?php
                 include 'inc/rightbar.php'
                 ?>
 
@@ -74,9 +74,9 @@
 
     <div class="responsive-logo">
 
-        <?php 
-                include 'inc/rightbar.php'
-                ?>
+        <?php
+        include 'inc/rightbar.php'
+        ?>
 
 
     </div>
@@ -89,26 +89,28 @@
             <div class="about-us-body">
 
                 <?php
-            
-            $sql = "SELECT * FROM `about`";
-            $result=$conn->query($sql);
-            while($row = mysqli_fetch_assoc($result))
-            {
-            $id = $row['id'];
-            $address = $row['name'];
-            $image = $row['image'];
-            $des = $row['des'];
-            $name = $row['notification_date'];
-            $email = $row['headline'];
-            $number = $row['image_link'];
-            }
-            ?>
+
+                $sql = "SELECT * FROM `about`";
+                $result = $conn->query($sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $id = $row['id'];
+                    $address = $row['name'];
+                    $image = $row['image'];
+                    $des = $row['des'];
+                    $name = $row['notification_date'];
+                    $email = $row['headline'];
+                    $number = $row['image_link'];
+                }
+                ?>
                 <div class="about-us-image">
                     <img src="./Admin/Action/upload/<?php echo $image ?>" rel=" img" />
                 </div>
                 <div class="about-us-description">
+                    <pre>
 
                     <?php echo $des ?>
+
+                    </pre>
 
                 </div>
 
